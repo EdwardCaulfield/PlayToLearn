@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MusicTrainer2.Views.Advanced_Features_Summary">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Padding="10,10" BackgroundColor="White">
+                    <Button x:Name="xTop_Trial_Button" HorizontalOptions="Center" BorderWidth="2" BorderColor="Blue" />
+                    <Button x:Name="xTop_Subsciption_Information_Button" HorizontalOptions="Center" BorderWidth="2" BorderColor="Blue" />
+                </StackLayout>
+                <Label HorizontalOptions="Center" Margin="0,5,0,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xPage_Header" FontSize="30" FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label x:Name="xHeader_Text" FontSize="Small" Margin="20,10,20,10" />
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xFeature_01_Name" FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xFeature_01_Description" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xFeature_02_Name" FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xFeature_02_Description" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xFeature_03_Name" FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xFeature_03_Description" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xFeature_04_Name" FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xFeature_04_Description" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xFeature_05_Name" FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xFeature_05_Description" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xFeature_06_Name" FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xFeature_06_Description" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xFeature_07_Name" FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xFeature_07_Description" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xFeature_08_Name" FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xFeature_08_Description" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xFeature_09_Name" FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xFeature_09_Description" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Padding="10,10" BackgroundColor="White">
+                    <Button x:Name="xBottom_Subscription_Information_Button" HorizontalOptions="Center" BorderWidth="2" BorderColor="Blue" />
+                    <Button x:Name="xBottom_Trial_Button" HorizontalOptions="Center" BorderWidth="2" BorderColor="Blue" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,122 @@
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.csproj.CoreCompileInputs.cache
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.App.xaml.g.cs
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.MusicTrainer2Page.xaml.g.cs
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.HomePage.xaml.g.cs
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.Application_Settings.xaml.g.cs
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.Song_Selection.xaml.g.cs
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.Select_Key.xaml.g.cs
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.Advanced_Features.xaml.g.cs
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Play To Learn.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Play To Learn.pdb
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Microsoft.Azure.Mobile.Analytics.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Microsoft.Azure.Mobile.Crashes.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Microsoft.Azure.Mobile.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.InAppBilling.Abstractions.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.InAppBilling.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.Settings.Abstractions.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.Settings.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/SkiaSharp.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/SkiaSharp.Views.Forms.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Core.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Platform.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Xaml.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.Settings.xml
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.Settings.Abstractions.pdb
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.Settings.Abstractions.xml
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/SkiaSharp.xml
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.InAppBilling.Abstractions.pdb
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.InAppBilling.Abstractions.xml
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.InAppBilling.pdb
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.InAppBilling.xml
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Core.pdb
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Core.xml
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Platform.pdb
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Xaml.pdb
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Xaml.xml
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.csprojResolveAssemblyReference.cache
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/Play To Learn.dll
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/Play To Learn.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Play To Learn.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Play To Learn.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Microsoft.Azure.Mobile.Analytics.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Microsoft.Azure.Mobile.Crashes.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Microsoft.Azure.Mobile.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Plugin.InAppBilling.Abstractions.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Plugin.InAppBilling.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Plugin.Settings.Abstractions.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Plugin.Settings.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/SkiaSharp.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/SkiaSharp.Views.Forms.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Xamarin.Forms.Core.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Plugin.Settings.Abstractions.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Plugin.Settings.Abstractions.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Plugin.Settings.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/SkiaSharp.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Plugin.InAppBilling.Abstractions.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Plugin.InAppBilling.Abstractions.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Plugin.InAppBilling.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Plugin.InAppBilling.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Xamarin.Forms.Core.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Xamarin.Forms.Platform.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Xamarin.Forms.Platform.dll.mdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/obj/Debug/MusicTrainer2.csprojResolveAssemblyReference.cache
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/obj/Debug/MusicTrainer2.csproj.CoreCompileInputs.cache
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/obj/Debug/MusicTrainer2.App.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/obj/Debug/MusicTrainer2.MusicTrainer2Page.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/obj/Debug/MusicTrainer2.HomePage.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/obj/Debug/MusicTrainer2.Application_Settings.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/obj/Debug/MusicTrainer2.Song_Selection.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/obj/Debug/MusicTrainer2.Select_Key.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/obj/Debug/MusicTrainer2.Advanced_Features.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/obj/Debug/Play To Learn.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2 copy/MusicTrainer2/obj/Debug/Play To Learn.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Play To Learn.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Play To Learn.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/de/Play To Learn.resources.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/zh/Play To Learn.resources.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Microsoft.Azure.Mobile.Analytics.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Microsoft.Azure.Mobile.Crashes.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Microsoft.Azure.Mobile.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Newtonsoft.Json.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.Settings.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/SkiaSharp.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/SkiaSharp.Views.Forms.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Core.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Newtonsoft.Json.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Newtonsoft.Json.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Plugin.Settings.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/SkiaSharp.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Core.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.Localised_Text.resources
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.Localised_Text.de.resources
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.Localised_Text.zh.resources
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.csproj.GenerateResource.cache
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/App.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2Page.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/HomePage.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/Application_Settings.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/Song_Selection.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/Select_Key.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/Advanced_Features.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/Views/Advanced_Features_Summary.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/Views/Subscription_Information.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.csproj.CoreCompileInputs.cache
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/XamlC.stamp
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/de/Play To Learn.resources.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/zh/Play To Learn.resources.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/MusicTrainer2.csproj.CopyComplete
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/Play To Learn.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Debug/Play To Learn.pdb

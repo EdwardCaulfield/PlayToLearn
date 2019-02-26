@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MusicTrainer2.Application_Settings">
+    <ContentPage.Content>
+        <ScrollView Orientation="Both" HorizontalOptions="Center" VerticalOptions="Start" Padding="0,20,0,0">
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+                <StackLayout Padding="0,20,0,0" Orientation="Horizontal" HorizontalOptions="Center" Margin="0,0,0,20" >
+                    <Label x:Name="xBuild_Version_Label" TextColor="Blue" FontSize="10"/>
+                    <Label x:Name="xBuild_Version_String" Text="Unknown" TextColor="Blue" FontSize="10"/>
+                </StackLayout>
+                <StackLayout x:Name="xURL_Stack" Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button x:Name="xPrivacy_Policy_Button" BorderWidth="2" BorderColor="Blue" />
+                    <Button x:Name="xTerms_Of_Use_Button" BorderWidth="2" BorderColor="Blue" />
+                </StackLayout>
+                <StackLayout x:Name="xAdvanced_Features_Buttons_Layout" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                    <Button x:Name="xSubscription_Information_Features_Button"  BorderWidth="2" BorderColor="Blue" />
+                    <Button x:Name="xManage_Subscriptions_Button" BorderWidth="2" BorderColor="Blue" />
+                    <Button x:Name="xKill_Trial_Button" Text=" Kill Trial " BorderWidth="2" BorderColor="Blue" />
+                    <Button x:Name="xConfigure_Advanced_Features_Button"  BorderWidth="2" BorderColor="Blue" />
+                </StackLayout>
+                <StackLayout x:Name="xTimeout_Configuration" Margin="0,20,20,0" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                    <Label x:Name="xTimeout_Limit_Label" />
+                    <Label x:Name="xTimeout_Limit_Value" />
+                    <Label x:Name="xTimeout_Limit_Ending_Label" />
+                </StackLayout>
+                <StackLayout>
+                    <Slider x:Name="xTimeout_Limit_Slider" />
+                </StackLayout>
+                <StackLayout x:Name="xSwitch_Layout" Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                        <Label x:Name="xShow_Key_Label" VerticalOptions="Center" />
+                        <Switch x:Name="xShow_Key_Switch" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                        <Label x:Name="xShow_Time_Signature_Label" VerticalOptions="Center" />
+                        <Switch x:Name="xShow_Time_Signature_Switch" VerticalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout x:Name="xBottom_Buttons_Layout" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                    <Button x:Name="xAbout_Advanced_Features_Button" BorderWidth="2" BorderColor="Blue" />
+                    <Button x:Name="xRestore_Purchases_Button" BorderWidth="2" BorderColor="Blue" />
+                    <Button x:Name="xReset_Button" BorderWidth="2" BorderColor="Red" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

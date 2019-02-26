@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.ObjectModel</name>
+  </assembly>
+  <members>
+    <member name="T:System.Collections.ObjectModel.KeyedCollection`2">
+      <summary>提供键嵌入在值中的集合的抽象基类。</summary>
+      <typeparam name="TKey">集合中的键的类型。</typeparam>
+      <typeparam name="TItem">集合中的项的类型。</typeparam>
+    </member>
+    <member name="M:System.Collections.ObjectModel.KeyedCollection`2.#ctor">
+      <summary>初始化 <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> 类的新实例，该实例使用默认的相等比较器。</summary>
+    </member>
+    <member name="M:System.Collections.ObjectModel.KeyedCollection`2.#ctor(System.Collections.Generic.IEqualityComparer{`0})">
+      <summary>初始化 <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> 类的新实例，该实例使用指定的相等比较器。</summary>
+      <param name="comparer">比较键时要使用的 <see cref="T:System.Collections.Generic.IEqualityComparer`1" /> 泛型接口的实现，如果为 null，则使用从 <see cref="P:System.Collections.Generic.EqualityComparer`1.Default" /> 获取的该类型的键的默认相等比较器。</param>
+    </member>
+    <member name="M:System.Collections.ObjectModel.KeyedCollection`2.#ctor(System.Collections.Generic.IEqualityComparer{`0},System.Int32)">
+      <summary>初始化 <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> 类的新实例，该实例使用指定的相等比较器并在超过指定阈值时创建一个查找字典。</summary>
+      <param name="comparer">比较键时要使用的 <see cref="T:System.Collections.Generic.IEqualityComparer`1" /> 泛型接口的实现，如果为 null，则使用从 <see cref="P:System.Collections.Generic.EqualityComparer`1.Default" /> 获取的该类型的键的默认相等比较器。</param>
+      <param name="dictionaryCreationThreshold">在不创建查找字典的情况下集合可容纳的元素的数目（0 表示添加第一项时创建查找字典）；或者为 -1，表示指定永远不会创建查找字典。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="dictionaryCreationThreshold" /> is less than –1.</exception>
+    </member>
+    <member name="M:System.Collections.ObjectModel.KeyedCollection`2.ChangeItemKey(`1,`0)">
+      <summary>更改与查找字典中指定元素相关联的键。</summary>
+      <param name="item">要更改其键的元素。</param>
+      <param name="newKey">
+        <paramref name="item" /> 的新键。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="item" /> is null.-or-<paramref name="key" /> is null.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="item" /> is not found.-or-<paramref name="key" /> already exists in the <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" />.</exception>
+    </member>
+    <member name="M:System.Collections.ObjectModel.KeyedCollection`2.ClearItems">
+      <summary>从 <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> 中移除所有元素。</summary>
+    </member>
+    <member name="P:System.Collections.ObjectModel.KeyedCollection`2.Comparer">
+      <summary>获取用于确定集合中的键是否相等的泛型相等比较器。</summary>
+      <returns>
+        <see cref="T:System.Collections.Generic.IEqualityComparer`1" /> 泛型接口的实现，用于确定集合中的键是否相等。</returns>
+    </member>
+    <member name="M:System.Collections.ObjectModel.KeyedCollection`2.Contains(`0)">
+      <summary>确定集合是否包含具有指定键的元素。</summary>
+      <returns>如果 <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> 包含具有指定键的元素，则为 true；否则为 false。</returns>
+      <param name="key">要在 <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> 中定位的键。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> is null.</exception>
+    </member>
+    <member name="P:System.Collections.ObjectModel.KeyedCollection`2.Dictionary">
+      <summary>获取 <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> 的查找字典。</summary>
+      <returns>如果存在，则为 <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> 的查找字典；否则为 null。</returns>
+    </member>
+    <member name="M:System.Collections.ObjectModel.KeyedCollection`2.GetKeyForItem(`1)">
+      <summary>在派生类中实现时，将从指定元素提取键。</summary>
+      <returns>指定元素的键。</returns>
+      <param name="item">从中提取键的元素。</param>
+    </member>
+    <member name="M:System.Collections.ObjectModel.KeyedCollection`2.InsertItem(System.Int32,`1)">
+      <summary>将元素插入 <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> 的指定索引处。</summary>
+      <param name="index">从零开始的索引，应在该位置插入 <paramref name="item" />。</param>
+      <param name="item">要插入的对象。</param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="index" /> is less than 0.-or-<paramref name="index" /> is greater than <see cref="P:System.Collections.ObjectModel.Collection`1.Count" />.</exception>
+    </member>
+    <member name="P:System.Collections.ObjectModel.KeyedCollection`2.Item(`0)">
+      <summary>获取具有指定键的元素。</summary>
+      <returns>带有指定键的元素。如果未找到具有指定键的元素，则引发异常。</returns>
+      <param name="key">要获取的元素的键。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> is null.</exception>
+      <exception cref="T:System.Collections.Generic.KeyNotFoundException">An element with the specified key does not exist in the collection.</exception>
+    </member>
+    <member name="M:System.Collections.ObjectModel.KeyedCollection`2.Remove(`0)">
+      <summary>从 <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> 中移除带有指定键的元素。</summary>
+      <returns>如果成功移除了元素，则为 true；否则为 false。如果未在 <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> 中找到 <paramref name="key" />，则此方法还返回 false。</returns>
+      <param name="key">要移除的元素的键。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> is null.</exception>
+    </member>
+    <member name="M:System.Collections.ObjectModel.KeyedCollection`2.RemoveItem(System.Int32)">
+      <summary>移除 <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> 的指定索引处的元素。</summary>
+      <param name="index">要移除的元素的索引。</param>
+    </member>
+    <member name="M:System.Collections.ObjectModel.KeyedCollection`2.SetItem(System.Int32,`1)">
+      <summary>使用指定项替换指定索引处的项。</summary>
+      <param name="index">要替换的项的从零开始的索引。</param>
+      <param name="item">新项目。</param>
+    </member>
+    <member name="T:System.Collections.ObjectModel.ObservableCollection`1">
+      <summary>表示一个动态数据集合，在添加项、移除项或刷新整个列表时，此集合将提供通知。</summary>
+      <typeparam name="T">集合中的元素类型。</typeparam>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ObservableCollection`1.#ctor">
+      <summary>初始化 <see cref="T:System.Collections.ObjectModel.ObservableCollection`1" /> 类的新实例。</summary>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ObservableCollection`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+      <summary>初始化 <see cref="T:System.Collections.ObjectModel.ObservableCollection`1" /> 类的新实例，该类包含从指定集合中复制的元素。</summary>
+      <param name="collection">从中复制元素的集合。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="collection" /> 参数不能为 null。</exception>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ObservableCollection`1.BlockReentrancy">
+      <summary>不允许可重入的更改此集合的尝试。</summary>
+      <returns>可用于释放对象的 <see cref="T:System.IDisposable" /> 对象。</returns>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ObservableCollection`1.CheckReentrancy">
+      <summary>检查可重入的更改此集合的尝试。</summary>
+      <exception cref="T:System.InvalidOperationException">如果存在对 <see cref="M:System.Collections.ObjectModel.ObservableCollection`1.BlockReentrancy" />（尚未释放其 <see cref="T:System.IDisposable" /> 返回值）的调用。通常，这意味着在 <see cref="E:System.Collections.ObjectModel.ObservableCollection`1.CollectionChanged" /> 事件期间进行了额外的更改此集合的尝试。但是，这取决于派生类何时选择调用 <see cref="M:System.Collections.ObjectModel.ObservableCollection`1.BlockReentrancy" />。</exception>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ObservableCollection`1.ClearItems">
+      <summary>从集合中移除所有项。</summary>
+    </member>
+    <member name="E:System.Collections.ObjectModel.ObservableCollection`1.CollectionChanged">
+      <summary>在添加、移除、更改或移动项或者在刷新整个列表时发生。</summary>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ObservableCollection`1.InsertItem(System.Int32,`0)">
+      <summary>将一项插入集合中指定索引处。</summary>
+      <param name="index">从零开始的索引，应在该位置插入 <paramref name="item" />。</param>
+      <param name="item">要插入的对象。</param>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ObservableCollection`1.Move(System.Int32,System.Int32)">
+      <summary>将指定索引处的项移至集合中的新位置。</summary>
+      <param name="oldIndex">从零开始的索引，用于指定要移动的项的位置。</param>
+      <param name="newIndex">从零开始的索引，用于指定项的新位置。</param>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ObservableCollection`1.MoveItem(System.Int32,System.Int32)">
+      <summary>将指定索引处的项移至集合中的新位置。</summary>
+      <param name="oldIndex">从零开始的索引，用于指定要移动的项的位置。</param>
+      <param name="newIndex">从零开始的索引，用于指定项的新位置。</param>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+      <summary>引发带有提供的参数的 <see cref="E:System.Collections.ObjectModel.ObservableCollection`1.CollectionChanged" /> 事件。</summary>
+      <param name="e">要引发的事件的参数。</param>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ObservableCollection`1.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+      <summary>引发带有提供的参数的 <see cref="E:System.Collections.ObjectModel.ObservableCollection`1.PropertyChanged" /> 事件。</summary>
+      <param name="e">要引发的事件的参数。</param>
+    </member>
+    <member name="E:System.Collections.ObjectModel.ObservableCollection`1.PropertyChanged">
+      <summary>在属性值更改时发生。</summary>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ObservableCollection`1.RemoveItem(System.Int32)">
+      <summary>移除集合中指定索引处的项。</summary>
+      <param name="index">要移除的元素的从零开始的索引。</param>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ObservableCollection`1.SetItem(System.Int32,`0)">
+      <summary>替换指定索引处的元素。</summary>
+      <param name="index">待替换元素的从零开始的索引。</param>
+      <param name="item">位于指定索引处的元素的新值。</param>
+    </member>
+    <member name="E:System.Collections.ObjectModel.ObservableCollection`1.System#ComponentModel#INotifyPropertyChanged#PropertyChanged">
+      <summary>在属性值更改时发生。</summary>
+    </member>
+    <member name="T:System.Collections.ObjectModel.ReadOnlyDictionary`2">
+      <summary>表示键/值对的只读泛型集合。</summary>
+      <typeparam name="TKey">字典中键的类型。</typeparam>
+      <typeparam name="TValue">字典中值的类型。</typeparam>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})">
+      <summary>初始化 <see cref="T:System.Collections.ObjectModel.ReadOnlyDictionary`2" /> 类的新实例，该实例是指定字典周围的包装。</summary>
+      <param name="dictionary">要包装的字典。</param>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.ContainsKey(`0)">
+      <summary>确定字典是否包含具有指定键的元素。</summary>
+      <returns>如果词典包含具有指定键的元素，则为 true；否则为 false。</returns>
+      <param name="key">要在字典中定位的键。</param>
+    </member>
+    <member name="P:System.Collections.ObjectModel.ReadOnlyDictionary`2.Count">
+      <summary>获取字典中项的数目。</summary>
+      <returns>字典中的项数。</returns>
+    </member>
+    <member name="P:System.Collections.ObjectModel.ReadOnlyDictionary`2.Dictionary">
+      <summary>获取由  <see cref="T:System.Collections.ObjectModel.ReadOnlyDictionary`2" /> 对象包装的字典。</summary>
+      <returns>由此对象包装的字典。</returns>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.GetEnumerator">
+      <summary>返回循环访问 <see cref="T:System.Collections.ObjectModel.ReadOnlyDictionary`2" /> 的枚举数。</summary>
+      <returns>一个可用于循环访问集合的枚举器。</returns>
+    </member>
+    <member name="P:System.Collections.ObjectModel.ReadOnlyDictionary`2.Item(`0)">
+      <summary>获取具有指定键的元素。</summary>
+      <returns>具有指定键的元素。</returns>
+      <param name="key">要获取的元素的键。</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="key" /> 为 null。</exception>
+      <exception cref="T:System.Collections.Generic.KeyNotFoundException">检索了属性但没有找到 <paramref name="key" />。</exception>
+    </member>
+    <member name="P:System.Collections.ObjectModel.ReadOnlyDictionary`2.Keys">
+      <summary>获取包含字典中的键的键集合。</summary>
+      <returns>包含字典中的键的键集合。</returns>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection{T}#Add(System.Collections.Generic.KeyValuePair{`0,`1})">
+      <summary>任何情况下均引发 <see cref="T:System.NotSupportedException" /> 异常。</summary>
+      <param name="item">要添加到字典中的对象。</param>
+      <exception cref="T:System.NotSupportedException">在所有情况下。</exception>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection{T}#Clear">
+      <summary>任何情况下均引发 <see cref="T:System.NotSupportedException" /> 异常。</summary>
+      <exception cref="T:System.NotSupportedException">在所有情况下。</exception>
+    </member>
+    <member name="M:System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection{T}#Contains(System.Collections.Generic.KeyValuePair{`0,`1})">
+      <summary>确定字典是否包含特定值。</summary>
+      <returns>如果在字典中找到 <paramre

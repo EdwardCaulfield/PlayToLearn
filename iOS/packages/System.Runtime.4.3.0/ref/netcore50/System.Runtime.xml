@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Runtime</name>
+  </assembly>
+  <members>
+    <member name="T:System.Action">
+      <summary>Encapsulates a method that has no parameters and does not return a value.</summary>
+    </member>
+    <member name="M:System.Action.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action.BeginInvoke(System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action.Invoke"></member>
+    <member name="T:System.Action`1">
+      <summary>Encapsulates a method that has a single parameter and does not return a value.To browse the .NET Framework source code for this type, see the Reference Source.</summary>
+      <typeparam name="T">The type of the parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:System.Action`1.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`1.BeginInvoke(`0,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`1.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`1.Invoke(`0)"></member>
+    <member name="T:System.Action`10">
+      <summary>Encapsulates a method that has 10 parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T5">The type of the fifth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T6">The type of the sixth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T7">The type of the seventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T8">The type of the eighth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T9">The type of the ninth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T10">The type of the tenth parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`10.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`10.BeginInvoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`10.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`10.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9)"></member>
+    <member name="T:System.Action`11">
+      <summary>Encapsulates a method that has 11 parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T5">The type of the fifth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T6">The type of the sixth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T7">The type of the seventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T8">The type of the eighth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T9">The type of the ninth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T10">The type of the tenth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T11">The type of the eleventh parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`11.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`11.BeginInvoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`11.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`11.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10)"></member>
+    <member name="T:System.Action`12">
+      <summary>Encapsulates a method that has 12 parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T5">The type of the fifth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T6">The type of the sixth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T7">The type of the seventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T8">The type of the eighth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T9">The type of the ninth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T10">The type of the tenth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T11">The type of the eleventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T12">The type of the twelfth parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`12.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`12.BeginInvoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`12.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`12.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11)"></member>
+    <member name="T:System.Action`13">
+      <summary>Encapsulates a method that has 13 parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T5">The type of the fifth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T6">The type of the sixth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T7">The type of the seventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T8">The type of the eighth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T9">The type of the ninth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T10">The type of the tenth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T11">The type of the eleventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T12">The type of the twelfth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T13">The type of the thirteenth parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`13.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`13.BeginInvoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`13.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`13.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12)"></member>
+    <member name="T:System.Action`14">
+      <summary>Encapsulates a method that has 14 parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T5">The type of the fifth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T6">The type of the sixth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T7">The type of the seventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T8">The type of the eighth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T9">The type of the ninth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T10">The type of the tenth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T11">The type of the eleventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T12">The type of the twelfth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T13">The type of the thirteenth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T14">The type of the fourteenth parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`14.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`14.BeginInvoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`14.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`14.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13)"></member>
+    <member name="T:System.Action`15">
+      <summary>Encapsulates a method that has 15 parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T5">The type of the fifth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T6">The type of the sixth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T7">The type of the seventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T8">The type of the eighth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T9">The type of the ninth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T10">The type of the tenth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T11">The type of the eleventh parameter of the method that this delegate encapsulates. </typeparam>
+      <typeparam name="T12">The type of the twelfth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T13">The type of the thirteenth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T14">The type of the fourteenth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T15">The type of the fifteenth parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`15.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`15.BeginInvoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`15.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`15.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14)"></member>
+    <member name="T:System.Action`16">
+      <summary>Encapsulates a method that has 16 parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T5">The type of the fifth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T6">The type of the sixth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T7">The type of the seventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T8">The type of the eighth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T9">The type of the ninth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T10">The type of the tenth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T11">The type of the eleventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T12">The type of the twelfth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T13">The type of the thirteenth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T14">The type of the fourteenth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T15">The type of the fifteenth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T16">The type of the sixteenth parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`16.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`16.BeginInvoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14,`15,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`16.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`16.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,`9,`10,`11,`12,`13,`14,`15)"></member>
+    <member name="T:System.Action`2">
+      <summary>Encapsulates a method that has two parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`2.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`2.BeginInvoke(`0,`1,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`2.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`2.Invoke(`0,`1)"></member>
+    <member name="T:System.Action`3">
+      <summary>Encapsulates a method that has three parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`3.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`3.BeginInvoke(`0,`1,`2,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`3.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`3.Invoke(`0,`1,`2)"></member>
+    <member name="T:System.Action`4">
+      <summary>Encapsulates a method that has four parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`4.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`4.BeginInvoke(`0,`1,`2,`3,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`4.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`4.Invoke(`0,`1,`2,`3)"></member>
+    <member name="T:System.Action`5">
+      <summary>Encapsulates a method that has five parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T5">The type of the fifth parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`5.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`5.BeginInvoke(`0,`1,`2,`3,`4,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`5.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`5.Invoke(`0,`1,`2,`3,`4)"></member>
+    <member name="T:System.Action`6">
+      <summary>Encapsulates a method that has six parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T5">The type of the fifth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T6">The type of the sixth parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`6.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`6.BeginInvoke(`0,`1,`2,`3,`4,`5,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`6.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`6.Invoke(`0,`1,`2,`3,`4,`5)"></member>
+    <member name="T:System.Action`7">
+      <summary>Encapsulates a method that has seven parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T5">The type of the fifth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T6">The type of the sixth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T7">The type of the seventh parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`7.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`7.BeginInvoke(`0,`1,`2,`3,`4,`5,`6,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`7.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`7.Invoke(`0,`1,`2,`3,`4,`5,`6)"></member>
+    <member name="T:System.Action`8">
+      <summary>Encapsulates a method that has eight parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T5">The type of the fifth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T6">The type of the sixth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T7">The type of the seventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T8">The type of the eighth parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`8.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`8.BeginInvoke(`0,`1,`2,`3,`4,`5,`6,`7,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`8.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`8.Invoke(`0,`1,`2,`3,`4,`5,`6,`7)"></member>
+    <member name="T:System.Action`9">
+      <summary>Encapsulates a method that has nine parameters and does not return a value.</summary>
+      <typeparam name="T1">The type of the first parameter of the method that this delegate encapsulates.This type parameter is contravariant. That is, you can use either the type you specified or any type that is less derived. For more information about covariance and contravariance, see Covariance and Contravariance in Generics.</typeparam>
+      <typeparam name="T2">The type of the second parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T3">The type of the third parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T4">The type of the fourth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T5">The type of the fifth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T6">The type of the sixth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T7">The type of the seventh parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T8">The type of the eighth parameter of the method that this delegate encapsulates.</typeparam>
+      <typeparam name="T9">The type of the ninth parameter of the method that this delegate encapsulates.</typeparam>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Action`9.#ctor(System.Object,System.IntPtr)"></member>
+    <member name="M:System.Action`9.BeginInvoke(`0,`1,`2,`3,`4,`5,`6,`7,`8,System.AsyncCallback,System.Object)"></member>
+    <member name="M:System.Action`9.EndInvoke(System.IAsyncResult)"></member>
+    <member name="M:System.Action`9.Invoke(`0,`1,`2,`3,`4,`5,`6,`7,`8)"></member>
+    <member name="T:System.Activator">
+      <summary>Contains methods to create types of objects locally or remotely, or obtain references to existing remote objects. This class cannot be inherited. </summary>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.Activator.CreateInstance``1">
+      <summary>Creates an instance of the type designated by the specified generic type parameter, using the parameterless constructor.</summary>
+      <returns>A reference to the newly created object.</returns>
+      <typeparam name="T">The type to create.</typeparam>
+      <exception cref="T:System.MissingMethodException">In the .NET for Windows Store apps or the Portable Class Library, catch the base class exception, <see cref="T:System.MissingMemberException" />, instead.The type that is specified for <paramref name="T" /> does not have a parameterless constructor. </exception>
+    </member>
+    <member name="M:System.Activator.CreateInstance(System.Type)">
+      <summary>Creates an instance of the specified type using that type's default constructor.</summary>
+      <returns>A reference to the newly created object.</returns>
+      <param name="type">The type of object to create. </param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="type" /> is null. </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="type" /> is not a RuntimeType. -or-<paramref name="type" /> is an open generic type (that is, the <see cref="P:System.Type.ContainsGenericParameters" /> property returns true).</exception>
+      <exception cref="T:System.NotSupportedException">
+        <paramref name="type" /> cannot be a <see cref="T:System.Reflection.Emit.TypeBuilder" />.-or- Creation of <see cref="T:System.TypedReference" />, <see cref="T:System.ArgIterator" />, <see cref="T:System.Void" />, and <see cref="T:System.RuntimeArgumentHandle" /> types, or arrays of those types, is not supported.-or-The assembly that contains <paramref name="type" /> is a dynamic assembly that was created with <see cref="F:System.Reflection.Emit.AssemblyBuilderAccess.Save" />. </exception>
+      <exception cref="T:System.Reflection.TargetInvocationException">The constructor being called throws an exception. </exception>
+      <exception cref="T:System.MethodAccessException">In the .NET for Windows Store apps or the Portable Class Library, catch the base class exception, <see cref="T:System.MemberAccessException" />, instead.The caller does not have permission to call this constructor. </exception>
+      <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism. </exception>
+      <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="Overload:System.Type.GetTypeFromProgID" /> or <see cref="Overload:System.Type.GetTypeFromCLSID" />. </exception>
+      <exception cref="T:System.MissingMethodException">In the .NET for Windows Store apps or the Portable Class Library, catch the base class exception, <see cref="T:System.MissingMemberException" />, instead.No matching public constructor was found. </exception>
+      <exception cref="T:System.Runtime.InteropServices.COMException">
+        <paramref name="type" /> is a COM object but the class identifier used to obtain the type is invalid, or the identified class is not registered. </exception>
+      <exception cref="T:System.TypeLoadException">
+        <paramref name="type" /> is not a valid type. </exception>
+      <filterpriority>1</filterpriority>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.ReflectionPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="MemberAccess" />
+      </PermissionSet>
+    </member>
+    <member name="M:System.Activator.CreateInstance(System.Type,System.Object[])">
+      <summary>Creates an instance of the specified type using the constructor that best matches the specified parameters.</summary>
+      <returns>A reference to the newly created object.</returns>
+      <param name="type">The type of object to create. </param>
+      <param name="args">An array of arguments that match in number, order, and type the parameters of the constructor to invoke. If <paramref name="args" /> is an empty array or null, the constructor that takes no parameters (the default constructor) is invoked. </param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="type" /> is null. </exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="type" /> is not a RuntimeType. -or-<paramref name="type" /> is an open generic type (that is, the <see cref="P:System.Type.ContainsGenericParameters" /> property returns true).</exception>
+      <exception cref="T:System.NotSupportedException">
+        <paramref name="type" /> cannot be a <see cref="T:System.Reflection.Emit.TypeBuilder" />.-or- Creation of <see cref="T:System.TypedReference" />, <see cref="T:System.ArgIterator" />, <see cref="T:System.Void" />, and <see cref="T:System.RuntimeArgumentHandle" /> types, or arrays of those types, is not supported. -or-The assembly that contains <paramref name="type" /> is a dynamic assembly that was created with <see cref="F:System.Reflection.Emit.AssemblyBuilderAccess.Save" />.-or-The constructor that best matches <paramref name="args" /> has varargs arguments. </exception>
+      <exception cref="T:System.Reflection.TargetInvocationException">The constructor being called throws an exception. </exception>
+      <exception cref="T:System.MethodAccessException">In the .NET for Windows Store apps or the Portable Class Library, catch the base class exception, <see cref="T:System.MemberAccessException" />, instead.The caller does not have permission to call this constructor. </exception>
+      <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism. </exception>
+      <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="Overload:System.Type.GetTypeFromProgID" /> or <see cref="Overload:System.Type.GetTypeFromCLSID" />. </exception>
+      <exception cref="T:System.MissingMethodException">In the .NET for Windows Store apps or the Portable Class Library, catch the base class exception, <see cref="T:System.MissingMemberException" />, instead.No matching public constructor was found. </exception>
+      <exception cref="T:System.Runtime.InteropServices.COMException">
+        <paramref name="type" /> is a COM object but the class identifier used to obtain the type is invalid, or the identified class is not registered. </exception>
+      <exception cref="T:System.TypeLoadException">
+        <paramref name="type" /> is not a valid type. </exception>
+      <filterpriority>1</filterpriority>
+      <PermissionSet>
+        <IPermission class="System.Security.Permissions.FileIOPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Read="*AllFiles*" PathDiscovery="*AllFiles*" />
+        <IPermission class="System.Security.Permissions.ReflectionPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="MemberAccess" />
+        <IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="UnmanagedCode, ControlEvidence, RemotingConfiguration" />
+      </PermissionSet>
+    </member>
+    <member name="T:System.ArgumentException">
+      <summary>The exception that is thrown when one of the arguments provided to a method is not valid.</summary>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:System.ArgumentException.#ctor">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentException" /> class.</summary>
+    </member>
+    <member name="M:System.ArgumentException.#ctor(System.String)">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message.</summary>
+      <param name="message">The error message that explains the reason for the exception. </param>
+    </member>
+    <member name="M:System.ArgumentException.#ctor(System.String,System.Exception)">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception.</summary>
+      <param name="message">The error message that explains the reason for the exception. </param>
+      <param name="innerException">The exception that is the cause of the current exception. If the <paramref name="innerException" /> parameter is not a null reference, the current exception is raised in a catch block that handles the inner exception. </param>
+    </member>
+    <member name="M:System.ArgumentException.#ctor(System.String,System.String)">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message and the name of the parameter that causes this exception.</summary>
+      <param name="message">The error message that explains the reason for the exception. </param>
+      <param name="paramName">The name of the parameter that caused the current exception. </param>
+    </member>
+    <member name="M:System.ArgumentException.#ctor(System.String,System.String,System.Exception)">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentException" /> class with a specified error message, the parameter name, and a reference to the inner exception that is the cause of this exception.</summary>
+      <param name="message">The error message that explains the reason for the exception. </param>
+      <param name="paramName">The name of the parameter that caused the current exception. </param>
+      <param name="innerException">The exception that is the cause of the current exception. If the <paramref name="innerException" /> parameter is not a null reference, the current exception is raised in a catch block that handles the inner exception. </param>
+    </member>
+    <member name="P:System.ArgumentException.Message">
+      <summary>Gets the error message and the parameter name, or only the error message if no parameter name is set.</summary>
+      <returns>A text string describing the details of the exception. The value of this property takes one of two forms: Condition Value The <paramref name="paramName" /> is a null reference (Nothing in Visual Basic) or of zero length. The <paramref name="message" /> string passed to the constructor. The <paramref name="paramName" /> is not null reference (Nothing in Visual Basic) and it has a length greater than zero. The <paramref name="message" /> string appended with the name of the invalid parameter. </returns>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="P:System.ArgumentException.ParamName">
+      <summary>Gets the name of the parameter that causes this exception.</summary>
+      <returns>The parameter name.</returns>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="T:System.ArgumentNullException">
+      <summary>The exception that is thrown when a null reference (Nothing in Visual Basic) is passed to a method that does not accept it as a valid argument. </summary>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.ArgumentNullException.#ctor">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentNullException" /> class.</summary>
+    </member>
+    <member name="M:System.ArgumentNullException.#ctor(System.String)">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentNullException" /> class with the name of the parameter that causes this exception.</summary>
+      <param name="paramName">The name of the parameter that caused the exception. </param>
+    </member>
+    <member name="M:System.ArgumentNullException.#ctor(System.String,System.Exception)">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentNullException" /> class with a specified error message and the exception that is the cause of this exception.</summary>
+      <param name="message">The error message that explains the reason for this exception. </param>
+      <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. </param>
+    </member>
+    <member name="M:System.ArgumentNullException.#ctor(System.String,System.String)">
+      <summary>Initializes an instance of the <see cref="T:System.ArgumentNullException" /> class with a specified error message and the name of the parameter that causes this exception.</summary>
+      <param name="paramName">The name of the parameter that caused the exception. </param>
+      <param name="message">A message that describes the error. </param>
+    </member>
+    <member name="T:System.ArgumentOutOfRangeException">
+      <summary>The exception that is thrown when the value of an argument is outside the allowable range of values as defined by the invoked method.</summary>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.ArgumentOutOfRangeException.#ctor">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentOutOfRangeException" /> class.</summary>
+    </member>
+    <member name="M:System.ArgumentOutOfRangeException.#ctor(System.String)">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentOutOfRangeException" /> class with the name of the parameter that causes this exception.</summary>
+      <param name="paramName">The name of the parameter that causes this exception. </param>
+    </member>
+    <member name="M:System.ArgumentOutOfRangeException.#ctor(System.String,System.Exception)">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentOutOfRangeException" /> class with a specified error message and the exception that is the cause of this exception.</summary>
+      <param name="message">The error message that explains the reason for this exception. </param>
+      <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. </param>
+    </member>
+    <member name="M:System.ArgumentOutOfRangeException.#ctor(System.String,System.Object,System.String)">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentOutOfRangeException" /> class with the parameter name, the value of the argument, and a specified error message.</summary>
+      <param name="paramName">The name of the parameter that caused the exception. </param>
+      <param name="actualValue">The value of the argument that causes this exception. </param>
+      <param name="message">The message that describes the error. </param>
+    </member>
+    <member name="M:System.ArgumentOutOfRangeException.#ctor(System.String,System.String)">
+      <summary>Initializes a new instance of the <see cref="T:System.ArgumentOutOfRangeException" /> class with the name of the parameter that causes this exception and a specified error message.</summary>
+      <param name="paramName">The name of the parameter that caused the exception. </param>
+      <param name="message">The message that describes the error. </param>
+    </member>
+    <member name="P:System.ArgumentOutOfRangeException.ActualValue">
+      <summary>Gets the argument value that causes this exception.</summary>
+      <returns>An Object that contains the value of the parameter that caused the current <see cref="T:System.Exception" />.</returns>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="P:System.ArgumentOutOfRangeException.Message">
+      <summary>Gets the error message and the string representation of the invalid argument value, or only the error message if the argument value is null.</summary>
+      <returns>The text message for this exception. The value of this property takes one of two forms, as follows.Condition Value The <paramref name="actualValue" /> is null. The <paramref name="message" /> string passed to the constructor. The <paramref name="actualValue" /> is not null. The <paramref name="message" /> string appended with the string representation of the invalid argument value. </returns>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="T:System.ArithmeticException">
+      <summary>The exception that is thrown for errors in an arithmetic, casting, or conversion operation.</summary>
+      <filterpriority>2</filterpriority>
+    </member>
+    <member name="M:System.ArithmeticException.#ctor">
+      <summary>Initializes a new instance of the <see cref="T:System.ArithmeticException" /> class.</summary>
+    </member>
+    <member name="M:System.ArithmeticException.#ctor(System.String)">
+      <summary>Initializes a new instance of the <see cref="T:System.ArithmeticException" /> class with a specified error message.</summary>
+      <param name="message">A <see cref="T:System.String" /> that describes the error. </param>
+    </member>
+    <member name="M:System.ArithmeticException.#ctor(System.String,System.Exception)">
+      <summary>Initializes a new instance of the <see cref="T:System.ArithmeticException" /> class with a specified error message and a reference to the inner exception that is the cause of this exception.</summary>
+      <param name="message">The error message that explains the reason for the exception. </param>
+      <param name="innerException">The exception that is the cause of the current exception. If the <paramref name="innerException" /> parameter is not a null reference, the current exception is raised in a catch block that handles the inner exception. </param>
+    </member>
+    <member name="T:System.Array">
+      <summary>Provides methods for creating, manipulating, searching, and sorting arrays, thereby serving as the base class for all arrays in the common language runtime.To browse the .NET Framework source code for this type, see the Reference Source.</summary>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object)">
+      <summary>Searches a range of elements in a one-dimensional sorted array for a value, using the <see cref="T:System.IComparable" /> interface implemented by each element of the array and by the specified value.</summary>
+      <returns>The index of the specified <paramref name="value" /> in the specified <paramref name="array" />, if <paramref name="value" /> is found. If <paramref name="value" /> is not found and <paramref name="value" /> is less than one or more elements in <paramref name="array" />, a negative number which is the bitwise complement of the index of the first element that is larger than <paramref name="value" />. If <paramref name="value" /> is not found and <paramref name="value" /> is greater than any of the elements in <paramref name="array" />, a negative number which is the bitwise complement of (the index of the last element plus 1).</returns>
+      <param name="array">The sorted one-dimensional <see cref="T:System.Array" /> to search.</param>
+      <param name="index">The starting index of the range to search.</param>
+      <param name="length">The length of the range to search.</param>
+      <param name="value">The object to search for.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="array" /> is null.</exception>
+      <exception cref="T:System.RankException">
+        <paramref name="array" /> is multidimensional.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="index" /> is less than the lower bound of <paramref name="array" />.-or-<paramref name="length" /> is less than zero.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="index" /> and <paramref name="length" /> do not specify a valid range in <paramref name="array" />.-or-<paramref name="value" /> is of a type that is not compatible with the elements of <paramref name="array" />.</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="value" /> does not implement the <see cref="T:System.IComparable" /> interface, and the search encounters an element that does not implement the <see cref="T:System.IComparable" /> interface.</exception>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object,System.Collections.IComparer)">
+      <summary>Searches a range of elements in a one-dimensional sorted array for a value, using the specified <see cref="T:System.Collections.IComparer" /> interface.</summary>
+      <returns>The index of the specified <paramref name="value" /> in the specified <paramref name="array" />, if <paramref name="value" /> is found. If <paramref name="value" /> is not found and <paramref name="value" /> is less than one or more elements in <paramref name="array" />, a negative number which is the bitwise complement of the index of the first element that is larger than <paramref name="value" />. If <paramref name="value" /> is not found and <paramref name="value" /> is greater than any of the elements in <paramref name="array" />, a negative number which is the bitwise complement of (the index of the last element plus 1).</returns>
+      <param name="array">The sorted one-dimensional <see cref="T:System.Array" /> to search.</param>
+      <param name="index">The starting index of the range to search.</param>
+      <param name="length">The length of the range to search.</param>
+      <param name="value">The object to search for.</param>
+      <param name="comparer">The <see cref="T:System.Collections.IComparer" /> implementation to use when comparing elements.-or- null to use the <see cref="T:System.IComparable" /> implementation of each element.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="array" /> is null.</exception>
+      <exception cref="T:System.RankException">
+        <paramref name="array" /> is multidimensional.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="index" /> is less than the lower bound of <paramref name="array" />.-or-<paramref name="length" /> is less than zero.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="index" /> and <paramref name="length" /> do not specify a valid range in <paramref name="array" />.-or-<paramref name="comparer" /> is null, and <paramref name="value" /> is of a type that is not compatible with the elements of <paramref name="array" />.</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="comparer" /> is null, <paramref name="value" /> does not implement the <see cref="T:System.IComparable" /> interface, and the search encounters an element that does not implement the <see cref="T:System.IComparable" /> interface.</exception>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:System.Array.BinarySearch(System.Array,System.Object)">
+      <summary>Searches an entire one-dimensional sorted array for a specific element, using the <see cref="T:System.IComparable" /> interface implemented by each element of the array and by the specified object.</summary>
+      <returns>The index of the specified <paramref name="value" /> in the specified <paramref name="array" />, if <paramref name="value" /> is found. If <paramref name="value" /> is not found and <paramref name="value" /> is less than one or more elements in <paramref name="array" />, a negative number which is the bitwise complement of the index of the first element that is larger than <paramref name="value" />. If <paramref name="value" /> is not found and <paramref name="value" /> is greater than any of the elements in <paramref name="array" />, a negative number which is the bitwise complement of (the index of the last element plus 1).</returns>
+      <param name="array">The sorted one-dimensional <see cref="T:System.Array" /> to search.</param>
+      <param name="value">The object to search for.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="array" /> is null.</exception>
+      <exception cref="T:System.RankException">
+        <paramref name="array" /> is multidimensional.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="value" /> is of a type that is not compatible with the elements of <paramref name="array" />.</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="value" /> does not implement the <see cref="T:System.IComparable" /> interface, and the search encounters an element that does not implement the <see cref="T:System.IComparable" /> interface.</exception>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:System.Array.BinarySearch(System.Array,System.Object,System.Collections.IComparer)">
+      <summary>Searches an entire one-dimensional sorted array for a value using the specified <see cref="T:System.Collections.IComparer" /> interface.</summary>
+      <returns>The index of the specified <paramref name="value" /> in the specified <paramref name="array" />, if <paramref name="value" /> is found. If <paramref name="value" /> is not found and <paramref name="value" /> is less than one or more elements in <paramref name="array" />, a negative number which is the bitwise complement of the index of the first element that is larger than <paramref name="value" />. If <paramref name="value" /> is not found and <paramref name="value" /> is greater than any of the elements in <paramref name="array" />, a negative number which is the bitwise complement of (the index of the last element plus 1).</returns>
+      <param name="array">The sorted one-dimensional <see cref="T:System.Array" /> to search.</param>
+      <param name="value">The object to search for.</param>
+      <param name="comparer">The <see cref="T:System.Collections.IComparer" /> implementation to use when comparing elements.-or- null to use the <see cref="T:System.IComparable" /> implementation of each element.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="array" /> is null.</exception>
+      <exception cref="T:System.RankException">
+        <paramref name="array" /> is multidimensional.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="comparer" /> is null, and <paramref name="value" /> is of a type that is not compatible with the elements of <paramref name="array" />.</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="comparer" /> is null, <paramref name="value" /> does not implement the <see cref="T:System.IComparable" /> interface, and the search encounters an element that does not implement the <see cref="T:System.IComparable" /> interface.</exception>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:System.Array.BinarySearch``1(``0[],System.Int32,System.Int32,``0)">
+      <summary>Searches a range of elements in a one-dimensional sorted array for a value, using the <see cref="T:System.IComparable`1" /> generic interface implemented by each element of the <see cref="T:System.Array" /> and by the specified value.</summary>
+      <returns>The index of the specified <paramref name="value" /> in the specified <paramref name="array" />, if <paramref name="value" /> is found. If <paramref name="value" /> is not found and <paramref name="value" /> is less than one or more elements in <paramref name="array" />, a negative number which is the bitwise complement of the index of the first element that is larger than <paramref name="value" />. If <paramref name="value" /> is not found and <paramref name="value" /> is greater than any of the elements in <paramref name="array" />, a negative number which is the bitwise complement of (the index of the last element plus 1).</returns>
+      <param name="array">The sorted one-dimensional, zero-based <see cref="T:System.Array" /> to search. </param>
+      <param name="index">The starting index of the range to search.</param>
+      <param name="length">The length of the range to search.</param>
+      <param name="value">The object to search for.</param>
+      <typeparam name="T">The type of the elements of the array.</typeparam>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="array" /> is null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="index" /> is less than the lower bound of <paramref name="array" />.-or-<paramref name="length" /> is less than zero.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="index" /> and <paramref name="length" /> do not specify a valid range in <paramref name="array" />.-or-<paramref name="value" /> is of a type that is not compatible with the elements of <paramref name="array" />.</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="T" /> does not implement the <see cref="T:System.IComparable`1" /> generic interface.</exception>
+    </member>
+    <member name="M:System.Array.BinarySearch``1(``0[],System.Int32,System.Int32,``0,System.Collections.Generic.IComparer{``0})">
+      <summary>Searches a range of elements in a one-dimensional sorted array for a value, using the specified <see cref="T:System.Collections.Generic.IComparer`1" /> generic interface.</summary>
+      <returns>The index of the specified <paramref name="value" /> in the specified <paramref name="array" />, if <paramref name="value" /> is found. If <paramref name="value" /> is not found and <paramref name="value" /> is less than one or more elements in <paramref name="array" />, a negative number which is the bitwise complement of the index of the first element that is larger than <paramref name="value" />. If <paramref name="value" /> is not found and <paramref name="value" /> is greater than any of the elements in <paramref name="array" />, a negative number which is the bitwise complement of (the index of the last element plus 1).</returns>
+      <param name="array">The sorted one-dimensional, zero-based <see cref="T:System.Array" /> to search. </param>
+      <param name="index">The starting index of the range to search.</param>
+      <param name="length">The length of the range to search.</param>
+      <param name="value">The object to search for.</param>
+      <param name="comparer">The <see cref="T:System.Collections.Generic.IComparer`1" /> implementation to use when comparing elements.-or- null to use the <see cref="T:System.IComparable`1" /> implementation of each element.</param>
+      <typeparam name="T">The type of the elements of the array.</typeparam>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="array" /> is null.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="index" /> is less than the lower bound of <paramref name="array" />.-or-<paramref name="length" /> is less than zero.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="index" /> and <paramref name="length" /> do not specify a valid range in <paramref name="array" />.-or-<paramref name="comparer" /> is null, and <paramref name="value" /> is of a type that is not compatible with the elements of <paramref name="array" />.</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="comparer" /> is null, and <paramref name="T" /> does not implement the <see cref="T:System.IComparable`1" /> generic interface.</exception>
+    </member>
+    <member name="M:System.Array.BinarySearch``1(``0[],``0)">
+      <summary>Searches an entire one-dimensional sorted array for a specific element, using the <see cref="T:System.IComparable`1" /> generic interface implemented by each element of the <see cref="T:System.Array" /> and by the specified object.</summary>
+      <returns>The index of the specified <paramref name="value" /> in the specified <paramref name="array" />, if <paramref name="value" /> is found. If <paramref name="value" /> is not found and <paramref name="value" /> is less than one or more elements in <paramref name="array" />, a negative number which is the bitwise complement of the index of the first element that is larger than <paramref name="value" />. If <paramref name="value" /> is not found and <paramref name="value" /> is greater than any of the elements in <paramref name="array" />, a negative number which is the bitwise complement of (the index of the last element plus 1).</returns>
+      <param name="array">The sorted one-dimensional, zero-based <see cref="T:System.Array" /> to search. </param>
+      <param name="value">The object to search for.</param>
+      <typeparam name="T">The type of the elements of the array.</typeparam>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="array" /> is null.</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="T" /> does not implement the <see cref="T:System.IComparable`1" /> generic interface.</exception>
+    </member>
+    <member name="M:System.Array.BinarySearch``1(``0[],``0,System.Collections.Generic.IComparer{``0})">
+      <summary>Searches an entire one-dimensional sorted array for a value using the specified <see cref="T:System.Collections.Generic.IComparer`1" /> generic interface.</summary>
+      <returns>The index of the specified <paramref name="value" /> in the specified <paramref name="array" />, if <paramref name="value" /> is found. If <paramref name="value" /> is not found and <paramref name="value" /> is less than one or more elements in <paramref name="array" />, a negative number which is the bitwise complement of the index of the first element that is larger than <paramref name="value" />. If <paramref name="value" /> is not found and <paramref name="value" /> is greater than any of the elements in <paramref name="array" />, a negative number which is the bitwise complement of (the index of the last element plus 1).</returns>
+      <param name="array">The sorted one-dimensional, zero-based <see cref="T:System.Array" /> to search.  </param>
+      <param name="value">The object to search for.</param>
+      <param name="comparer">The <see cref="T:System.Collections.Generic.IComparer`1" /> implementation to use when comparing elements.-or- null to use the <see cref="T:System.IComparable`1" /> implementation of each element.</param>
+      <typeparam name="T">The type of the elements of the array.</typeparam>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="array" /> is null.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="comparer" /> is null, and <paramref name="value" /> is of a type that is not compatible with the elements of <paramref name="array" />.</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="comparer" /> is null, and <paramref name="T" /> does not implement the <see cref="T:System.IComparable`1" /> generic interface</exception>
+    </member>
+    <member name="M:System.Array.Clear(System.Array,System.Int32,System.Int32)">
+      <summary>Sets a range of elements in an array to the default value of each element type.</summary>
+      <param name="array">The array whose elements need to be cleared.</param>
+      <param name="index">The starting index of the range of elements to clear.</param>
+      <param name="length">The number of elements to clear.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="array" /> is null.</exception>
+      <exception cref="T:System.IndexOutOfRangeException">
+        <paramref name="index" /> is less than the lower bound of <paramref name="array" />.-or-<paramref name="length" /> is less than zero.-or-The sum of <paramref name="index" /> and <paramref name="length" /> is greater than the size of <paramref name="array" />.</exception>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:System.Array.Clone">
+      <summary>Creates a shallow copy of the <see cref="T:System.Array" />.</summary>
+      <returns>A shallow copy of the <see cref="T:System.Array" />.</returns>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:System.Array.ConstrainedCopy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)">
+      <summary>Copies a range of elements from an <see cref="T:System.Array" /> starting at the specified source index and pastes them to another <see cref="T:System.Array" /> starting at the specified destination index.  Guarantees that all changes are undone if the copy does not succeed completely.</summary>
+      <param name="sourceArray">The <see cref="T:System.Array" /> that contains the data to copy.</param>
+      <param name="sourceIndex">A 32-bit integer that represents the index in the <paramref name="sourceArray" /> at which copying begins.</param>
+      <param name="destinationArray">The <see cref="T:System.Array" /> that receives the data.</param>
+      <param name="destinationIndex">A 32-bit integer that represents the index in the <paramref name="destinationArray" /> at which storing begins.</param>
+      <param name="length">A 32-bit integer that represents the number of elements to copy.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="sourceArray" /> is null.-or-<paramref name="destinationArray" /> is null.</exception>
+      <exception cref="T:System.RankException">
+        <paramref name="sourceArray" /> and <paramref name="destinationArray" /> have different ranks.</exception>
+      <exception cref="T:System.ArrayTypeMismatchException">The <paramref name="sourceArray" /> type is neither the same as nor derived from the <paramref name="destinationArray" /> type.</exception>
+      <exception cref="T:System.InvalidCastException">At least one element in <paramref name="sourceArray" /> cannot be cast to the type of <paramref name="destinationArray" />.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="sourceIndex" /> is less than the lower bound of the first dimension of <paramref name="sourceArray" />.-or-<paramref name="destinationIndex" /> is less than the lower bound of the first dimension of <paramref name="destinationArray" />.-or-<paramref name="length" /> is less than zero.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="length" /> is greater than the number of elements from <paramref name="sourceIndex" /> to the end of <paramref name="sourceArray" />.-or-<paramref name="length" /> is greater than the number of elements from <paramref name="destinationIndex" /> to the end of <paramref name="destinationArray" />.</exception>
+    </member>
+    <member name="M:System.Array.Copy(System.Array,System.Array,System.Int32)">
+      <summary>Copies a range of elements from an <see cref="T:System.Array" /> starting at the first element and pastes them into another <see cref="T:System.Array" /> starting at the first element. The length is specified as a 32-bit integer.</summary>
+      <param name="sourceArray">The <see cref="T:System.Array" /> that contains the data to copy.</param>
+      <param name="destinationArray">The <see cref="T:System.Array" /> that receives the data.</param>
+      <param name="length">A 32-bit integer that represents the number of elements to copy.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="sourceArray" /> is null.-or-<paramref name="destinationArray" /> is null.</exception>
+      <exception cref="T:System.RankException">
+        <paramref name="sourceArray" /> and <paramref name="destinationArray" /> have different ranks.</exception>
+      <exception cref="T:System.ArrayTypeMismatchException">
+        <paramref name="sourceArray" /> and <paramref name="destinationArray" /> are of incompatible types.</exception>
+      <exception cref="T:System.InvalidCastException">At least one element in <paramref name="sourceArray" /> cannot be cast to the type of <paramref name="destinationArray" />.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="length" /> is less than zero.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="length" /> is greater than the number of elements in <paramref name="sourceArray" />.-or-<paramref name="length" /> is greater than the number of elements in <paramref name="destinationArray" />.</exception>
+      <filterpriority>1</filterpriority>
+    </member>
+    <member name="M:System.Array.Copy(System.Array,System.Int32,System.Array,System.Int32,System.Int32)">
+      <summary>Copies a range of elements from an <see cref="T:System.Array" /> starting at the specified source index and pastes them to another <see cref="T:System.Array" /> starting at the specified destination index. The length and the indexes are specified as 32-bit integers.</summary>
+      <param name="sourceArray">The <see cref="T:System.Array" /> that contains the data to copy.</param>
+      <param name="sourceIndex">A 32-bit integer that represents the index in the <paramref name="sourceArray" /> at which copying begins.</param>
+      <param name="destinationArray">The <see cref="T:System.Array" /> that receives the data.</param>
+      <param name="destinationIndex">A 32-bit integer that represents the index in the <paramref name="destinationArray" /> at which storing begins.</param>
+      <param name="length">A 32-bit integer that represents the number of elements to copy.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="sourceArray" /> is null.-or-<paramref name="destinationArray" /> is null.</exception>
+      <exception cref="T:System.RankException">
+        <paramref name="sourceArray" /> and <paramref name="destinationArray" /> have different ranks.</exception>
+      <exception cref="T:System.ArrayTypeMismatchException">
+        <paramref name="sourceArray" /> and <paramref name="destinationArray" /> are of incompatible types.</exception>
+      <exception cref="T:System.InvalidCastException">At least one element in <paramref name="sourceArray" /> cannot be cast to the type of <paramref name="destinationArray" />.</exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="sourceIndex" /> is less than the lower bound of the first dimension of <paramref name="sourceArray" />.-or-<paramref name="destinationIndex" /> is less than the lower bound of the first dimension of <paramref name="destinationArray" />.-or-<paramref name="length" /> is less than zero.</exception>
+      <exception cref="T:System.ArgumentException">
+        <paramref name="length" /> is greater 

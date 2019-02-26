@@ -1,0 +1,2 @@
+C:\Users\Development\Documents\Visual Studio 2017\Projects\MusicTrainer2\MusicTrainer2.UWP\MusicTrainer2.UWP.csproj;x86
+C:\Users\Development\Documents\Visual Studio 2017\Projects\MusicTrainer2\MusicTrainer2\MusicTrainer2.csproj;neutral

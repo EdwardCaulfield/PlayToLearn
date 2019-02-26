@@ -1,0 +1,8 @@
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/Droid/obj/Debug/MusicTrainer2.Droid.csprojResolveAssemblyReference.cache
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Basement.dll.stamp
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Ads.Lite.dll.stamp
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Gass.dll.stamp
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Tasks.dll.stamp
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Base.dll.stamp
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Clearcut.dll.stamp
+C:/Users/Development/Documents/Visual Studio 2017/Projects/MusicTrainer2/Droid/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Ads.dll.stamp

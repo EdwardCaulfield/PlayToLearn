@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Globalization</name>
+  </assembly>
+  <members>
+    <member name="T:System.Globalization.Calendar">
+      <summary>시간을 주, 월, 연도로 구분해서 표시합니다.</summary>
+    </member>
+    <member name="M:System.Globalization.Calendar.#ctor">
+      <summary>
+        <see cref="T:System.Globalization.Calendar" /> 클래스의 새 인스턴스를 초기화합니다.</summary>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddDays(System.DateTime,System.Int32)">
+      <summary>지정된 <see cref="T:System.DateTime" />에서 지정된 날짜 수만큼 경과한 <see cref="T:System.DateTime" />을 반환합니다.</summary>
+      <returns>지정된 <see cref="T:System.DateTime" />에 지정된 날짜 수를 더한 결과로 만들어진 <see cref="T:System.DateTime" />입니다.</returns>
+      <param name="time">날짜를 더할 <see cref="T:System.DateTime" />입니다. </param>
+      <param name="days">더할 날짜 수입니다. </param>
+      <exception cref="T:System.ArgumentException">생성되는 <see cref="T:System.DateTime" />이 이 달력의 지원되는 범위 밖에 있는 경우 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="days" /> 값이 지원되는 <see cref="T:System.DateTime" /> 반환 값의 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddHours(System.DateTime,System.Int32)">
+      <summary>지정된 <see cref="T:System.DateTime" />에서 지정된 시간 수만큼 경과한 <see cref="T:System.DateTime" />을 반환합니다.</summary>
+      <returns>지정된 <see cref="T:System.DateTime" />에 지정된 시간 수를 더한 결과로 만들어지는 <see cref="T:System.DateTime" />입니다.</returns>
+      <param name="time">시간을 더할 <see cref="T:System.DateTime" />입니다. </param>
+      <param name="hours">더할 시간 수입니다. </param>
+      <exception cref="T:System.ArgumentException">생성되는 <see cref="T:System.DateTime" />이 이 달력의 지원되는 범위 밖에 있는 경우 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="hours" /> 값이 지원되는 <see cref="T:System.DateTime" /> 반환 값의 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddMilliseconds(System.DateTime,System.Double)">
+      <summary>지정된 <see cref="T:System.DateTime" />에서 지정된 밀리초 수만큼 경과한 <see cref="T:System.DateTime" />을 반환합니다.</summary>
+      <returns>지정된 <see cref="T:System.DateTime" />에 지정된 밀리초 수를 더한 결과로 만들어지는 <see cref="T:System.DateTime" />입니다.</returns>
+      <param name="time">밀리초를 더할 <see cref="T:System.DateTime" />입니다. </param>
+      <param name="milliseconds">더할 밀리초 수입니다.</param>
+      <exception cref="T:System.ArgumentException">생성되는 <see cref="T:System.DateTime" />이 이 달력의 지원되는 범위 밖에 있는 경우 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="milliseconds" /> 값이 지원되는 <see cref="T:System.DateTime" /> 반환 값의 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddMinutes(System.DateTime,System.Int32)">
+      <summary>지정된 <see cref="T:System.DateTime" />에서 지정된 분 수만큼 경과한 <see cref="T:System.DateTime" />을 반환합니다.</summary>
+      <returns>지정된 <see cref="T:System.DateTime" />에 지정된 분 수를 더한 결과로 만들어지는 <see cref="T:System.DateTime" />입니다.</returns>
+      <param name="time">분을 더할 <see cref="T:System.DateTime" />입니다. </param>
+      <param name="minutes">더할 분 수입니다. </param>
+      <exception cref="T:System.ArgumentException">생성되는 <see cref="T:System.DateTime" />이 이 달력의 지원되는 범위 밖에 있는 경우 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="minutes" /> 값이 지원되는 <see cref="T:System.DateTime" /> 반환 값의 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddMonths(System.DateTime,System.Int32)">
+      <summary>파생 클래스에 재정의될 때 지정된 <see cref="T:System.DateTime" />에서 지정된 월 수만큼 경과한 <see cref="T:System.DateTime" />을 반환합니다.</summary>
+      <returns>지정된 <see cref="T:System.DateTime" />에 지정된 월 수를 더한 결과로 만들어지는 <see cref="T:System.DateTime" />입니다.</returns>
+      <param name="time">월을 더할 <see cref="T:System.DateTime" />입니다. </param>
+      <param name="months">더할 월 수입니다. </param>
+      <exception cref="T:System.ArgumentException">생성되는 <see cref="T:System.DateTime" />이 이 달력의 지원되는 범위 밖에 있는 경우 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="months" /> 값이 지원되는 <see cref="T:System.DateTime" /> 반환 값의 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddSeconds(System.DateTime,System.Int32)">
+      <summary>지정된 <see cref="T:System.DateTime" />에서 지정된 초 수만큼 경과한 <see cref="T:System.DateTime" />을 반환합니다.</summary>
+      <returns>지정된 <see cref="T:System.DateTime" />에 지정된 초 수를 더한 결과로 만들어지는 <see cref="T:System.DateTime" />입니다.</returns>
+      <param name="time">초를 더할 <see cref="T:System.DateTime" />입니다. </param>
+      <param name="seconds">더할 초 수입니다. </param>
+      <exception cref="T:System.ArgumentException">생성되는 <see cref="T:System.DateTime" />이 이 달력의 지원되는 범위 밖에 있는 경우 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="seconds" /> 값이 지원되는 <see cref="T:System.DateTime" /> 반환 값의 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddWeeks(System.DateTime,System.Int32)">
+      <summary>지정된 <see cref="T:System.DateTime" />에서 지정된 주 수만큼 경과한 <see cref="T:System.DateTime" />을 반환합니다.</summary>
+      <returns>지정된 <see cref="T:System.DateTime" />에 지정된 주 수를 더한 결과로 만들어지는 <see cref="T:System.DateTime" />입니다.</returns>
+      <param name="time">주를 더할 <see cref="T:System.DateTime" />입니다. </param>
+      <param name="weeks">더할 주 수입니다. </param>
+      <exception cref="T:System.ArgumentException">생성되는 <see cref="T:System.DateTime" />이 이 달력의 지원되는 범위 밖에 있는 경우 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="weeks" /> 값이 지원되는 <see cref="T:System.DateTime" /> 반환 값의 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.AddYears(System.DateTime,System.Int32)">
+      <summary>파생 클래스에 재정의될 때 지정된 <see cref="T:System.DateTime" />에서 지정된 연도 수만큼 경과한 <see cref="T:System.DateTime" />을 반환합니다.</summary>
+      <returns>지정된 <see cref="T:System.DateTime" />에 지정된 연도 수를 더한 결과로 만들어지는 <see cref="T:System.DateTime" />입니다.</returns>
+      <param name="time">연도를 더할 <see cref="T:System.DateTime" />입니다. </param>
+      <param name="years">더할 연도 수입니다. </param>
+      <exception cref="T:System.ArgumentException">생성되는 <see cref="T:System.DateTime" />이 이 달력의 지원되는 범위 밖에 있는 경우 </exception>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="years" /> 값이 지원되는 <see cref="T:System.DateTime" /> 반환 값의 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="F:System.Globalization.Calendar.CurrentEra">
+      <summary>현재 달력의 현재 연대를 나타냅니다. </summary>
+    </member>
+    <member name="P:System.Globalization.Calendar.Eras">
+      <summary>파생 클래스에 재정의될 때 현재 달력의 연대 목록을 가져옵니다.</summary>
+      <returns>현재 달력의 연대를 나타내는 정수의 배열입니다.</returns>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDayOfMonth(System.DateTime)">
+      <summary>파생 클래스에 재정의될 때 지정된 <see cref="T:System.DateTime" />의 날짜(월 기준)를 반환합니다.</summary>
+      <returns>
+        <paramref name="time" /> 매개 변수의 일(월 기준)을 나타내는 양의 정수입니다.</returns>
+      <param name="time">읽을 <see cref="T:System.DateTime" />입니다. </param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDayOfWeek(System.DateTime)">
+      <summary>파생 클래스에 재정의될 때 지정된 <see cref="T:System.DateTime" />의 요일을 반환합니다.</summary>
+      <returns>
+        <paramref name="time" /> 매개 변수의 요일을 나타내는 <see cref="T:System.DayOfWeek" /> 값입니다.</returns>
+      <param name="time">읽을 <see cref="T:System.DateTime" />입니다. </param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDayOfYear(System.DateTime)">
+      <summary>파생 클래스에 재정의될 때 지정된 <see cref="T:System.DateTime" />의 날짜(연도 기준)를 반환합니다.</summary>
+      <returns>
+        <paramref name="time" /> 매개 변수의 일(연도 기준)을 나타내는 양의 정수입니다.</returns>
+      <param name="time">읽을 <see cref="T:System.DateTime" />입니다. </param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDaysInMonth(System.Int32,System.Int32)">
+      <summary>현재 연대의 지정된 연도 및 월에 있는 일 수를 반환합니다.</summary>
+      <returns>현재 연대의 지정된 연도에 있는 지정된 월의 날짜 수입니다.</returns>
+      <param name="year">연도를 나타내는 정수입니다. </param>
+      <param name="month">월을 나타내는 양의 정수입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="month" />가 달력에서 지원하는 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)">
+      <summary>파생 클래스에 재정의될 때 지정된 월, 연도 및 연대의 일 수를 반환합니다.</summary>
+      <returns>지정된 연대의 지정된 연도에 있는 지정된 월의 날짜 수입니다.</returns>
+      <param name="year">연도를 나타내는 정수입니다. </param>
+      <param name="month">월을 나타내는 양의 정수입니다. </param>
+      <param name="era">연대를 나타내는 정수입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="month" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="era" />가 달력에서 지원하는 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDaysInYear(System.Int32)">
+      <summary>현재 연대의 지정된 연도에 있는 일 수를 반환합니다.</summary>
+      <returns>현재 연대의 지정된 연도에 있는 날짜 수입니다.</returns>
+      <param name="year">연도를 나타내는 정수입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" />가 달력에서 지원하는 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetDaysInYear(System.Int32,System.Int32)">
+      <summary>파생 클래스에 재정의될 때 지정된 연도 및 연대의 일 수를 반환합니다.</summary>
+      <returns>지정된 연대에 있는 지정된 연도의 날짜 수입니다.</returns>
+      <param name="year">연도를 나타내는 정수입니다. </param>
+      <param name="era">연대를 나타내는 정수입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="era" />가 달력에서 지원하는 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetEra(System.DateTime)">
+      <summary>파생 클래스에 재정의될 때 지정된 <see cref="T:System.DateTime" />의 연대를 반환합니다.</summary>
+      <returns>
+        <paramref name="time" />의 연대를 나타내는 정수입니다.</returns>
+      <param name="time">읽을 <see cref="T:System.DateTime" />입니다. </param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetHour(System.DateTime)">
+      <summary>지정된 <see cref="T:System.DateTime" />의 시간 값을 반환합니다.</summary>
+      <returns>
+        <paramref name="time" />의 시간을 나타내는 0에서 23 사이의 정수입니다.</returns>
+      <param name="time">읽을 <see cref="T:System.DateTime" />입니다. </param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetLeapMonth(System.Int32,System.Int32)">
+      <summary>지정한 연도 및 연대의 윤월을 계산합니다.</summary>
+      <returns>지정한 연도와 연대에서 윤월을 나타내는 양의 정수입니다.또는이 달력이 윤월을 지원하지 않거나 <paramref name="year" /> 및 <paramref name="era" /> 매개 변수가 윤년을 지정하지 않는 경우 0입니다.</returns>
+      <param name="year">연도입니다.</param>
+      <param name="era">연대입니다.</param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetMilliseconds(System.DateTime)">
+      <summary>지정된 <see cref="T:System.DateTime" />의 밀리초 값을 반환합니다.</summary>
+      <returns>
+        <paramref name="time" /> 매개 변수의 밀리초를 나타내는 0부터 999까지의 배정밀도 부동 소수점 숫자입니다.</returns>
+      <param name="time">읽을 <see cref="T:System.DateTime" />입니다. </param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetMinute(System.DateTime)">
+      <summary>지정된 <see cref="T:System.DateTime" />의 분 값을 반환합니다.</summary>
+      <returns>
+        <paramref name="time" />의 분을 나타내는 0에서 59 사이의 정수입니다.</returns>
+      <param name="time">읽을 <see cref="T:System.DateTime" />입니다. </param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetMonth(System.DateTime)">
+      <summary>파생 클래스에 재정의될 때 지정된 <see cref="T:System.DateTime" />의 월을 반환합니다.</summary>
+      <returns>
+        <paramref name="time" />의 월을 나타내는 양의 정수입니다.</returns>
+      <param name="time">읽을 <see cref="T:System.DateTime" />입니다. </param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetMonthsInYear(System.Int32)">
+      <summary>현재 연대에 있는 지정된 연도의 월 수를 반환합니다.</summary>
+      <returns>현재 연대에 있는 지정된 연도의 월 수입니다.</returns>
+      <param name="year">연도를 나타내는 정수입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" />가 달력에서 지원하는 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetMonthsInYear(System.Int32,System.Int32)">
+      <summary>파생 클래스에 재정의될 때 지정된 연대에 있는 지정된 연도의 월 수를 반환합니다.</summary>
+      <returns>지정된 연대에 있는 지정된 연도의 월 수입니다.</returns>
+      <param name="year">연도를 나타내는 정수입니다. </param>
+      <param name="era">연대를 나타내는 정수입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="era" />가 달력에서 지원하는 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetSecond(System.DateTime)">
+      <summary>지정된 <see cref="T:System.DateTime" />의 초 값을 반환합니다.</summary>
+      <returns>
+        <paramref name="time" />의 초를 나타내는 0에서 59 사이의 정수입니다.</returns>
+      <param name="time">읽을 <see cref="T:System.DateTime" />입니다. </param>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)">
+      <summary>지정된 <see cref="T:System.DateTime" /> 값의 날짜가 포함된 주(연도 기준)를 반환합니다.</summary>
+      <returns>
+        <paramref name="time" /> 매개 변수의 날짜가 포함된 주(연도 기준)를 나타내는 양의 정수입니다.</returns>
+      <param name="time">날짜 및 시간 값입니다. </param>
+      <param name="rule">주를 정의하는 열거형 값입니다. </param>
+      <param name="firstDayOfWeek">주의 첫째 요일을 정의하는 열거형 값입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="time" />이 <see cref="P:System.Globalization.Calendar.MinSupportedDateTime" />보다 이전이거나 <see cref="P:System.Globalization.Calendar.MaxSupportedDateTime" />보다 이후인 경우또는<paramref name="firstDayOfWeek" />은(는) 올바른 <see cref="T:System.DayOfWeek" /> 값이 아닙니다.또는 <paramref name="rule" />은(는) 올바른 <see cref="T:System.Globalization.CalendarWeekRule" /> 값이 아닙니다. </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.GetYear(System.DateTime)">
+      <summary>파생 클래스에 재정의될 때 지정된 <see cref="T:System.DateTime" />의 연도를 반환합니다.</summary>
+      <returns>
+        <paramref name="time" />의 연도를 나타내는 정수입니다.</returns>
+      <param name="time">읽을 <see cref="T:System.DateTime" />입니다. </param>
+    </member>
+    <member name="M:System.Globalization.Calendar.IsLeapDay(System.Int32,System.Int32,System.Int32)">
+      <summary>현재 연대의 지정된 날짜가 윤일인지 여부를 확인합니다.</summary>
+      <returns>지정된 날짜가 윤일이면 true이고, 그렇지 않으면 false입니다.</returns>
+      <param name="year">연도를 나타내는 정수입니다. </param>
+      <param name="month">월을 나타내는 양의 정수입니다. </param>
+      <param name="day">일을 나타내는 양의 정수입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="month" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="day" />가 달력에서 지원하는 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)">
+      <summary>파생 클래스에 재정의될 때 지정된 연대의 지정된 날짜가 윤일인지 여부를 확인합니다.</summary>
+      <returns>지정된 날짜가 윤일이면 true이고, 그렇지 않으면 false입니다.</returns>
+      <param name="year">연도를 나타내는 정수입니다. </param>
+      <param name="month">월을 나타내는 양의 정수입니다. </param>
+      <param name="day">일을 나타내는 양의 정수입니다. </param>
+      <param name="era">연대를 나타내는 정수입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="month" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="day" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="era" />가 달력에서 지원하는 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.IsLeapMonth(System.Int32,System.Int32)">
+      <summary>현재 연대의 지정된 연도에 있는 지정된 월이 윤월인지 여부를 확인합니다.</summary>
+      <returns>지정된 월이 윤월이면 true이고, 그렇지 않으면 false입니다.</returns>
+      <param name="year">연도를 나타내는 정수입니다. </param>
+      <param name="month">월을 나타내는 양의 정수입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="month" />가 달력에서 지원하는 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)">
+      <summary>파생 클래스에 재정의될 때 지정된 연대의 지정된 연도에 있는 지정된 월이 윤월인지 여부를 확인합니다.</summary>
+      <returns>지정된 월이 윤월이면 true이고, 그렇지 않으면 false입니다.</returns>
+      <param name="year">연도를 나타내는 정수입니다. </param>
+      <param name="month">월을 나타내는 양의 정수입니다. </param>
+      <param name="era">연대를 나타내는 정수입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="month" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="era" />가 달력에서 지원하는 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.IsLeapYear(System.Int32)">
+      <summary>지정된 연대의 지정된 연도가 윤년인지 여부를 확인합니다.</summary>
+      <returns>지정된 연도가 윤년이면 true이고, 그렇지 않으면 false입니다.</returns>
+      <param name="year">연도를 나타내는 정수입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" />가 달력에서 지원하는 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="M:System.Globalization.Calendar.IsLeapYear(System.Int32,System.Int32)">
+      <summary>파생 클래스에 재정의될 때 지정된 연대의 지정된 연도가 윤년인지 여부를 확인합니다.</summary>
+      <returns>지정된 연도가 윤년이면 true이고, 그렇지 않으면 false입니다.</returns>
+      <param name="year">연도를 나타내는 정수입니다. </param>
+      <param name="era">연대를 나타내는 정수입니다. </param>
+      <exception cref="T:System.ArgumentOutOfRangeException">
+        <paramref name="year" />가 달력에서 지원하는 범위 밖에 있는 경우또는 <paramref name="era" />가 달력에서 지원하는 범위 밖에 있는 경우 </exception>
+    </member>
+    <member name="P:System.Globalization.Calendar.IsReadOnly">
+      <summary>이 <see cref="T:System.Globalization.Calendar" /> 개체가 읽기 전용인지 여부를 나타내는 값을 가져옵니다.</summary>
+      <returns>이 <see cref="T:System.Globalization.Calendar" /> 개체가 읽기 전용이면 true이고, 그렇지 않으면 false입니다.</returns>
+    </member

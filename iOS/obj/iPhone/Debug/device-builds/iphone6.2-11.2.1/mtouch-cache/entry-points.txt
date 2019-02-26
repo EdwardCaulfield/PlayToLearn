@@ -1,0 +1,157 @@
+Function=xamarin_timezone_get_data
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/mscorlib.dll
+Function=CreateZStream
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/System.dll
+Function=Flush
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/System.dll
+Function=xamarin_get_block_descriptor
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=GADAdSizeFromCGSize
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Function=GADAdSizeFullWidthPortraitWithHeight
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Function=GADAdSizeFullWidthLandscapeWithHeight
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Function=GADAdSizeEqualToSize
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Function=CGSizeFromGADAdSize
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Function=IsGADAdSizeValid
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Function=GADAdSizeIsFluid
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Function=NSStringFromGADAdSize
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Function=NSValueFromGADAdSize
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Function=GADAdSizeFromNSValue
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=kGADAdSizeBanner
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=kGADAdSizeFluid
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=kGADAdSizeFullBanner
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=kGADAdSizeInvalid
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=kGADAdSizeLargeBanner
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=kGADAdSizeLeaderboard
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=kGADAdSizeMediumRectangle
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=kGADAdSizeSkyscraper
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=kGADAdSizeSmartBannerLandscape
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=kGADAdSizeSmartBannerPortrait
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=GADNativeCustomTemplateAdMediaViewKey
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADNativeCustomTemplateAd
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=kGADSimulatorID
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADRequest
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADRequestError
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADRewardBasedVideoAd
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADAdChoicesView
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADAdLoader
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADAdLoaderOptions
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADAdReward
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADAudioVideoManager
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADBannerView
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADCorrelator
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADCorrelatorAdLoaderOptions
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADCustomEventExtras
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADCustomEventRequest
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADDebugOptionsViewController
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADDefaultInAppPurchase
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADDynamicHeightSearchRequest
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADExtras
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADInAppPurchase
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADInterstitial
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADMediatedNativeAdNotificationSource
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADMediaView
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADMobileAds
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADMultipleAdsAdLoaderOptions
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADNativeAd
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADNativeAdImage
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADNativeAdImageAdLoaderOptions
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADNativeAdViewAdOptions
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADNativeAppInstallAd
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADNativeAppInstallAdView
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADNativeContentAd
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADNativeContentAdView
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADNativeExpressAdView
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADSearchBannerView
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADSearchRequest
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADVideoController
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_GADVideoOptions
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_DFPBannerView
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_DFPBannerViewOptions
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_DFPCustomRenderedAd
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_DFPInterstitial
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Field=kDFPSimulatorID
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+ObjectiveCClass=OBJC_CLASS_$_DFPRequest
+	/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Debug/device-builds/iphone6.2-11.2.1/mtouch-cache/Link/Google.MobileAds.dll
+Function=mono_pmip

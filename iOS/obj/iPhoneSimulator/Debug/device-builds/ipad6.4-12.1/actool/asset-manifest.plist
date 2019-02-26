@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon20x20@2x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon20x20@3x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon29x29@2x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon29x29@3x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon40x40@2x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon40x40@3x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon60x60@2x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon60x60@3x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon20x20~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon20x20@2x~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon29x29~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon29x29@2x~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon40x40~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon40x40@2x~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon76x76~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon76x76@2x~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/AppIcon83.5x83.5@2x~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-800-Portrait-736h@3x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-800-Landscape-736h@3x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-800-667h@2x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-700@2x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-700-568h@2x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-700-Portrait~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-700-Landscape~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-700-Landscape@2x~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage@2x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-568h@2x.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-Portrait~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-Portrait~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-Landscape~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-Landscape~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-Portrait@2x~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-Portrait@2x~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-Landscape@2x~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/LaunchImage-Landscape@2x~ipad.png</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/bundle/Assets.car</string>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/partial-info.plist</string>
+		</array>
+	</dict>
+	<key>com.apple.actool.document.notices</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[iphone][736h][3x][portrait][full-screen][8.0]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[iphone][736h][3x][landscape][full-screen][8.0]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[iphone][667h][2x][portrait][full-screen][8.0]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[iphone][][1x][portrait][full-screen][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[iphone][][2x][portrait][full-screen][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[iphone][retina4][2x][portrait][full-screen][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[ipad][][1x][portrait][to-status-bar][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[ipad][][1x][portrait][full-screen][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[ipad][][1x][landscape][to-status-bar][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[ipad][][1x][landscape][full-screen][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[ipad][][2x][portrait][to-status-bar][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[ipad][][2x][portrait][full-screen][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[ipad][][2x][landscape][to-status-bar][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[ipad][][2x][landscape][full-screen][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+	</array>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v2-29.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v3-50.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v3-50@2x.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v3-57.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v3-57@2x.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v3-72.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v3-72@2x.png]</string>
+				<string>./AppIcon.appiconset/[][watch][44x44][longLook][42mm][2x][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v2-29.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v3-50.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v3-50@2x.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v3-57.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v3-57@2x.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v3-72.png]</string>
+				<string>./AppIcon.appiconset/(null)[2d][Application Icon 1024 by 1024 v3-72@2x.png]</string>
+				<string>./AppIcon.appiconset/[][watch][44x44][longLook][42mm][2x][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcon" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[ipad][][2x][portrait][full-screen][7.0][1d][Default-Portrait~iPad@2x - 1536 x 2048.png]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The launch image set "LaunchImage" has an unassigned child.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./LaunchImage.launchimage/[ipad][][2x][portrait][full-screen][7.0]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-12.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>LaunchImage.launchimage/Default-Landscape~iPad Pro 12 inch@ - 2048 x 2732.png is 2048x2732 but should be 1536x2048.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+	</array>
+</dict>
+</plist>

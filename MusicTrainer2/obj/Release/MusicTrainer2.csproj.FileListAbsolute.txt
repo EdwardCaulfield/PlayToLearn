@@ -1,0 +1,44 @@
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Play To Learn.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/de/Play To Learn.resources.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/zh/Play To Learn.resources.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Microsoft.Azure.Mobile.Analytics.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Microsoft.Azure.Mobile.Crashes.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Microsoft.Azure.Mobile.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Newtonsoft.Json.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Plugin.Settings.Abstractions.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Plugin.Settings.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/SkiaSharp.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/SkiaSharp.Views.Forms.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/System.Runtime.InteropServices.RuntimeInformation.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Xamarin.Forms.Core.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Xamarin.Forms.Platform.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Xamarin.Forms.Xaml.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Plugin.Settings.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Plugin.Settings.Abstractions.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Plugin.Settings.Abstractions.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/SkiaSharp.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Xamarin.Forms.Core.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Xamarin.Forms.Core.dll.mdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Xamarin.Forms.Core.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Xamarin.Forms.Xaml.pdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Xamarin.Forms.Xaml.dll.mdb
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Xamarin.Forms.Xaml.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/bin/Release/Newtonsoft.Json.xml
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.Localised_Text.resources
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.Localised_Text.de.resources
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.Localised_Text.zh.resources
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.csproj.GenerateResource.Cache
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.csproj.CoreCompileInputs.cache
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.App.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.MusicTrainer2Page.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.HomePage.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.Application_Settings.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.Song_Selection.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.Select_Key.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.Advanced_Features.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.Views.Advanced_Features_Summary.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.Views.Subscription_Information.xaml.g.cs
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/de/Play To Learn.resources.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/zh/Play To Learn.resources.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/Play To Learn.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/MusicTrainer2/obj/Release/MusicTrainer2.csprojResolveAssemblyReference.cache

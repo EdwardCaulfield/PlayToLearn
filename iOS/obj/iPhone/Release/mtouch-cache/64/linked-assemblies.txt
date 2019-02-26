@@ -1,0 +1,24 @@
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/MusicTrainer2.iOS.exe
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/mscorlib.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Xamarin.Forms.Core.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/System.Core.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/System.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Mono.Security.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/System.Xml.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Xamarin.Forms.Platform.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Xamarin.Forms.Platform.iOS.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Xamarin.iOS.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/System.Net.Http.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/System.Runtime.Serialization.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/System.ServiceModel.Internals.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Play To Learn.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Xamarin.Forms.Xaml.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/SkiaSharp.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Plugin.Settings.Abstractions.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/SkiaSharp.Views.Forms.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/SkiaSharp.Views.iOS.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Microsoft.Azure.Mobile.Analytics.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Microsoft.Azure.Mobile.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Microsoft.Azure.Mobile.Crashes.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Plugin.Settings.dll
+/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/bin/iPhone/Release/MusicTrainer2.iOS.app:/Users/EdwardCaulfield/Projects/MusicTrainer2/iOS/obj/iPhone/Release/mtouch-cache/64/Link/Google.MobileAds.dll

@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{8D564102-9CE9-4BE8-AA9A-9E26631050A3}|Default">
+  <MonoDevelop.Ide.ItemProperties.MusicTrainer2.Droid AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MusicTrainer2" expanded="True">
+            <Node name="MusicTrainer2" expanded="True">
+              <Node name="Application_Settings.xaml" expanded="True" />
+              <Node name="Select_Key.xaml" expanded="True">
+                <Node name="Select_Key.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.MusicTrainer2.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E747ECD5-6CC8-4303-B680-2D0EF45BBC27">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="D362DLB65T" TeamId="W77Q65SGP3" />
+  </MonoDevelop.Ide.ItemProperties.MusicTrainer2.iOS>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

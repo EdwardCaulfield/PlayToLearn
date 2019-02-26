@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MusicTrainer2.Advanced_Features">
+    <ContentPage.Content>
+        <ScrollView x:Name="xScroll_View" Orientation="Both" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <StackLayout Orientation="Vertical">
+                <StackLayout x:Name="xLayout_Section_0" Orientation="Vertical" HorizontalOptions="Center" >
+                    <Label x:Name="xTrial_Termination_Text" HorizontalOptions="Center" />
+                    <Label x:Name="xTrial_Termination_Date" Text="Placeholder" HorizontalOptions="Center" Margin="0,0,10,0" TextColor="Blue" />
+                </StackLayout>
+                <StackLayout x:Name="xLayout_Section_1" Orientation="Vertical" VerticalOptions="Center">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                        <Grid x:Name="xSupported_Languages">                        </Grid>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="Center">
+                        <Label x:Name="xAdvertising_Label" VerticalOptions="Center" />
+                        <Switch x:Name="xAdvertising_Switch" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="Center">
+                        <Label x:Name="xAllow_Complex_Notes_Label" VerticalOptions="Center" />
+                        <Switch x:Name="xAllow_Complex_Notes_Switch" VerticalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout x:Name="xLayout_Section_2" Orientation="Vertical" VerticalOptions="Center">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="Center">
+                        <Label x:Name="xUse_Music_Timing_Label" VerticalOptions="Center" />
+                        <Switch x:Name="xUseMusic_Timing_Switch" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                        <Label x:Name="xUse_Timer_Label" />
+                        <Switch x:Name="xUse_Timer_Switch" VerticalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout x:Name="xStarting_Beats_Configuration" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                    <Label x:Name="xStarting_Beats_Label" />
+                    <Label x:Name="xStarting_Beats_Value" />
+                    <Label x:Name="xStarting_Beats_Ending_Label" />
+                </StackLayout>
+                <StackLayout>
+                    <Slider x:Name="xStarting_Beats_Slider" />
+                </StackLayout>
+                <StackLayout x:Name="xTimeout_Configuration" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                    <Label x:Name="xTimeout_Limit_Label" />
+                    <Label x:Name="xTimeout_Limit_Value" />
+                    <Label x:Name="xTimeout_Limit_Ending_Label" />
+                </StackLayout>
+                <StackLayout>
+                    <Slider x:Name="xTimeout_Limit_Slider" />
+                </StackLayout>
+                <StackLayout x:Name="xLayout_Section_3" Orientation="Vertical" VerticalOptions="Center">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                        <Label x:Name="xShow_Note_Request_Hint_Label" VerticalOptions="Center" />
+                        <Switch x:Name="xShow_Note_Request_Hint_Switch" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                        <Label x:Name="xShow_Progress_Bar_Label" VerticalOptions="Center" />
+                        <Switch x:Name="xShow_Progress_Bar_Switch" VerticalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout x:Name="xLayout_Section_4" Orientation="Vertical" VerticalOptions="Center">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                        <Label x:Name="xShow_Played_Note_Label" VerticalOptions="Center" />
+                        <Switch x:Name="xShow_Played_Note_Switch" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                        <Label x:Name="xLenient_Note_Identification_Label" VerticalOptions="Center" />
+                        <Switch x:Name="xLenient_Note_Identification_Switch" VerticalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout x:Name="xLayout_Section_5" Orientation="Vertical" VerticalOptions="Center">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                        <Label x:Name="xShow_Instrument_Label" VerticalOptions="Center" />
+                        <Switch x:Name="xShow_Instrument_Switch" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                        <Label x:Name="xUse_Random_Music_Keys_Label" />
+                        <Switch x:Name="xUse_Random_Music_Keys_Switch" VerticalOptions="Center" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout x:Name="xLayout_Section_6" Orientation="Vertical" VerticalOptions="Center">
+                    <Button x:Name="xSelect_Key_Button" BorderWidth="2" BorderColor="Blue" />
+                    <Button x:Name="xReset_Advanced_Features_Button" BorderWidth="2" BorderColor="Red" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

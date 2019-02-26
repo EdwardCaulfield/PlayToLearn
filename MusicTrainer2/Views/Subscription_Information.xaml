@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MusicTrainer2.Views.Subscription_Information">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout>
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Padding="10,10">
+                        <Button x:Name="xTop_Privacy_Policy_Button" HorizontalOptions="Center" BorderWidth="2" BorderColor="Blue" />
+                        <Button x:Name="xTop_Terms_Of_Use_Button" HorizontalOptions="Center" BorderWidth="2" BorderColor="Blue" />
+                    <Button x:Name="xTest_Subscription_Button" BorderWidth="2" BorderColor="Blue" />
+                    <Button x:Name="xTop_Subscribe_Button" HorizontalOptions="Center" BorderWidth="2" BorderColor="Blue" />
+                </StackLayout>
+                <Label HorizontalOptions="Center" Margin="10,5,0,0">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xAdvanced_Features_Label" Text="Advanced Features" FontSize="25" FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Center" Margin="10,-5,0,20">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xSubscription_Information_Label" FontSize="25" FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xSubscription_Title" FontSize="Small"  FontAttributes="Bold" />
+                            <Span x:Name="xSubscription_Information"   FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xPayment_Title" FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xPayment_Information" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xRenewal_Title" FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xRenewal_Information" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xManaging_Title" FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xManaging_Information" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label HorizontalOptions="Start" Margin="30,5,30,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span x:Name="xUnused_Trial_Title"  FontSize="Small" FontAttributes="Bold" />
+                            <Span x:Name="xUnused_Trial_Information" FontSize="Small" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <StackLayout Orientation="Vertical" HorizontalOptions="Center" Padding="10,10" BackgroundColor="White">
+                        <Button x:Name="xBottom_Privacy_Policy_Button" HorizontalOptions="Center" BorderWidth="2" BorderColor="Blue" />
+                        <Button x:Name="xBottom_Terms_Of_Use_Button" HorizontalOptions="Center" BorderWidth="2" BorderColor="Blue" />
+                    <Button x:Name="xBottom_Subscribe_Button" HorizontalOptions="Center" BorderWidth="2" BorderColor="Blue" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Xamarin.Forms.2.5.0.280555\build\netstandard1.0\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.280555\build\netstandard1.0\Xamarin.Forms.props')" />
+  <Import Project="..\packages\Xamarin.Forms.2.4.0.280\build\netstandard1.0\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.2.4.0.280\build\netstandard1.0\Xamarin.Forms.props')" />
+  <Import Project="..\packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.props" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{8D564102-9CE9-4BE8-AA9A-9E26631050A3}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MusicTrainer2.iOS</RootNamespace>
+    <AssemblyName>MusicTrainer2.iOS</AssemblyName>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer: Edward Caulfield (E2Q5MCML5N)</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <IOSDebuggerPort>32563</IOSDebuggerPort>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>VS: Play.To.Learn Development</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>
+    </DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Distribution: Edward Caulfield (W77Q65SGP3)</CodesignKey>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>PTL Distribution</CodesignProvision>
+<SignAssembly>true</SignAssembly>
+<AssemblyOriginatorKeyFile>..\Distribution_Profile.mobileprovision</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>
+    </DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer: Edward Caulfield (E2Q5MCML5N)</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>VS: Play.To.Learn Development</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;ENABLE_TEST_CLOUD;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer: Edward Caulfield (E2Q5MCML5N)</CodesignKey>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchFastDev>true</MtouchFastDev>
+    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IOSDebuggerPort>44373</IOSDebuggerPort>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>VS: Play.To.Learn Development</CodesignProvision>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Plugin.Settings, Version=3.2.0.130, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugins.Settings.3.2.0.130-beta\lib\Xamarin.iOS10\Plugin.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Settings.Abstractions, Version=3.2.0.130, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugins.Settings.3.2.0.130-beta\lib\Xamarin.iOS10\Plugin.Settings.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Plugin.InAppBilling.Abstractions">
+      <HintPath>..\packages\Plugin.InAppBilling.1.2.2\lib\Xamarin.iOS10\Plugin.InAppBilling.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.InAppBilling">
+      <HintPath>..\packages\Plugin.InAppBilling.1.2.2\lib\Xamarin.iOS10\Plugin.InAppBilling.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>..\packages\SkiaSharp.1.59.3\lib\XamariniOS\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.iOS">
+      <HintPath>..\packages\SkiaSharp.Views.1.59.3\lib\XamariniOS\SkiaSharp.Views.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.Forms">
+      <HintPath>..\packages\SkiaSharp.Views.Forms.1.59.3\lib\XamariniOS\SkiaSharp.Views.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\packages\Xamarin.Forms.2.5.0.280555\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\packages\Xamarin.Forms.2.5.0.280555\lib\Xamarin.iOS10\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.iOS">
+      <HintPath>..\packages\Xamarin.Forms.2.5.0.280555\lib\Xamarin.iOS10\Xamarin.Forms.Platform.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\packages\Xamarin.Forms.2.5.0.280555\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MobileAds">
+      <HintPath>..\packages\Xamarin.Google.iOS.MobileAds.7.27.0\lib\Xamarin.iOS10\Google.MobileAds.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MusicTrainer2\MusicTrainer2.csproj">
+      <Project>{E46EA754-0F81-44A6-84C3-F172A2B07D50}</Project>
+      <Name>MusicTrainer2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v2-29.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v2-29%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-29%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-40%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-40%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-57.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-57%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-60%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-60%403x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-29.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-29%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-40.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-50.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-50%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-72.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-72%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-76.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-76%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Application Icon 1024 by 1024 v3-83.5%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default%402x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Portrait~iPhone-6-Plus%403x - 1242 x 2208.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Portrait~iPhone-6%403x - 750 x 1334.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Landscape~iPhone-6-Plus%403x - 2208 x 1242.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-568h - 640 x 1136.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Portrait~iPad - 768 x 1024.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Portrait~iPad%402x - 1536 x 2048.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Landscape~iPad - 1024 x 768.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Landscape~iPad%402x - 2048 x 1536.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default - 320 x 480.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default%402x - 640 x 960.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Portrait~iPad-No-Status - 768 x 1004.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Portrait~iPad-No-Status%402x - 1536 x 2008.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Landscape~iPad-No-Status - 1024 x 748.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Landscape~iPad-No-Status%402x - 2048 x 1496.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Default-Landscape~iPad Pro 12 inch%40 - 2048 x 2732.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Marketing Icon - 1024 x 1024.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Marketing Icon - 20 x 20.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Marketing Icon - 40 x 40.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Marketing Icon - 60 x 60.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="LaunchScreen.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helpers\Settings.cs" />
+    <Compile Include="Localize.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Audio_Capture.cs" />
+    <Compile Include="CustomBannerRenderer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Key_C.png" />
+    <BundleResource Include="Resources\Key_G.png" />
+    <BundleResource Include="Resources\Key_A_Flat.png" />
+    <BundleResource Include="Resources\Key_A.png" />
+    <BundleResource Include="Resources\Key_B_Flat.png" />
+    <BundleResource Include="Resources\Key_B.png" />
+    <BundleResource Include="Resources\Key_C_Flat.png" />
+    <BundleResource Include="Resources\Key_C_Sharp.png" />
+    <BundleResource Include="Resources\Key_D_Flat.png" />
+    <BundleResource Include="Resources\Key_D.png" />
+    <BundleResource Include="Resources\Key_E_Flat.png" />
+    <BundleResource Include="Resources\Key_E.png" />
+    <BundleResource Include="Resources\Key_F_Sharp.png" />
+    <BundleResource Include="Resources\Key_F.png" />
+    <BundleResource Include="Resources\Key_G_Flat.png" />
+    <BundleResource Include="..\Images\BPM_Increase.png">
+      <Link>Resources\BPM_Increase.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Images\BPM_Decrease.png">
+      <Link>Resources\BPM_Decrease.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Images\Control Icons\Control_Icons_Dont_Repeat.png">
+      <Link>Resources\Control_Icons_Dont_Repeat.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Images\Control Icons\Control_Icons_Pause.png">
+      <Link>Resources\Control_Icons_Pause.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Images\Control Icons\Control_Icons_Resume.png">
+      <Link>Resources\Control_Icons_Resume.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Images\Control Icons\Control_Icons_Rewind.png">
+      <Link>Resources\Control_Icons_Rewind.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Images\Control Icons\Control_Icons_Stop.png">
+      <Link>Resources\Control_Icons_Stop.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Images\Control Icons\Control_Icons_Repeat.png">
+      <Link>Resources\Control_Icons_Repeat.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\GoogleService-Info.plist">
+      <Link>GoogleService-Info.plist</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Android\splash_screen.png">
+      <Link>Resources\splash_screen.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Images\Control Icons\Control_Icons_Deselected_Auto_Repeat2.png">
+      <Link>Resources\Control_Icons_Deselected_Auto_Repeat2.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Images\Control Icons\Control_Icons_Selected_Auto_Repeat2.png">
+      <Link>Resources\Control_Icons_Selected_Auto_Repeat2.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Images\Control Icons\Control_Icons_Selected_Complex_Notes.png">
+      <Link>Resources\Control_Icons_Selected_Complex_Notes.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Images\Control Icons\Control_Icons_Selected_Simple_Notes.png">
+      <Link>Resources\Control_Icons_Selected_Simple_Notes.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Images\Keys\Use_Key_From_Song.png">
+      <Link>Resources\Use_Key_From_Song.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Australia.png">
+      <Link>Resources\Flag_Australia.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Austria.png">
+      <Link>Resources\Flag_Austria.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Belize.png">
+      <Link>Resources\Flag_Belize.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Canada.png">
+      <Link>Resources\Flag_Canada.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_China.png">
+      <Link>Resources\Flag_China.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Germany.png">
+      <Link>Resources\Flag_Germany.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_India.png">
+      <Link>Resources\Flag_India.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Jamaica.png">
+      <Link>Resources\Flag_Jamaica.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Liechtenstein.png">
+      <Link>Resources\Flag_Liechtenstein.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Luxembourg.png">
+      <Link>Resources\Flag_Luxembourg.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_New_Zealand.png">
+      <Link>Resources\Flag_New_Zealand.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Philippines.png">
+      <Link>Resources\Flag_Philippines.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Singapore.png">
+      <Link>Resources\Flag_Singapore.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_South_Africa.png">
+      <Link>Resources\Flag_South_Africa.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Switzerland.png">
+      <Link>Resources\Flag_Switzerland.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Trinidad_and_Tobago.png">
+      <Link>Resources\Flag_Trinidad_and_Tobago.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_United_Kingdom.png">
+      <Link>Resources\Flag_United_Kingdom.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_United_States.png">
+      <Link>Resources\Flag_United_States.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\Resources\Shared\Flag Icons\flags\shiny\64\Flag_Zimbabwe.png">
+      <Link>Resources\Flag_Zimbabwe.png</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.targets')" />
+  <Import Project="..\packages\Xamarin.Google.iOS.MobileAds.7.21.0\build\Xamarin.Google.iOS.MobileAds.targets" Condition="Exists('..\packages\Xamarin.Google.iOS.MobileAds.7.21.0\build\Xamarin.Google.iOS.MobileAds.targets')" />
+  <Import Project="..\packages\Xamarin.Forms.2.4.0.280\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.4.0.280\build\netstandard1.0\Xamarin.Forms.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Dieses Projekt verweist auf mindestens ein NuGet-Paket, das auf diesem Computer fehlt. Verwenden Sie die Wiederherstellung von NuGet-Paketen, um die fehlenden Dateien herunterzuladen. Weitere Informationen finden Sie unter "http://go.microsoft.com/fwlink/?LinkID=322105". Die fehlende Datei ist "{0}".</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NETStandard.Library.2.0.1\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NETStandard.Library.2.0.1\build\netstandard2.0\NETStandard.Library.targets'))" />
+  </Target>
+  <Import Project="..\packages\NETStandard.Library.2.0.1\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.1\build\netstandard2.0\NETStandard.Library.targets')" />
+  <Import Project="..\packages\Xamarin.Forms.2.5.0.280555\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.280555\build\netstandard1.0\Xamarin.Forms.targets')" />
+  <Import Project="..\packages\Xamarin.Google.iOS.MobileAds.7.27.0\build\Xamarin.Google.iOS.MobileAds.targets" Condition="Exists('..\packages\Xamarin.Google.iOS.MobileAds.7.27.0\build\Xamarin.Google.iOS.MobileAds.targets')" />
+</Project>

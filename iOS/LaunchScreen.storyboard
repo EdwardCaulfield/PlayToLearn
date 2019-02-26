@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="32" key="view" image="splash_screen.png">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                        </accessibility>
+                    </imageView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Key_C.png" width="125" height="60"/>
+        <image name="Key_G.png" width="125" height="60"/>
+        <image name="Key_A_Flat.png" width="125" height="60"/>
+        <image name="Key_A.png" width="125" height="60"/>
+        <image name="Key_B_Flat.png" width="125" height="60"/>
+        <image name="Key_B.png" width="125" height="60"/>
+        <image name="Key_C_Flat.png" width="125" height="60"/>
+        <image name="Key_C_Sharp.png" width="125" height="60"/>
+        <image name="Key_D_Flat.png" width="125" height="60"/>
+        <image name="Key_D.png" width="125" height="60"/>
+        <image name="Key_E_Flat.png" width="125" height="60"/>
+        <image name="Key_E.png" width="125" height="60"/>
+        <image name="Key_F_Sharp.png" width="125" height="60"/>
+        <image name="Key_F.png" width="125" height="60"/>
+        <image name="Key_G_Flat.png" width="125" height="60"/>
+        <image name="BPM_Increase.png" width="19" height="19"/>
+        <image name="BPM_Decrease.png" width="19" height="19"/>
+        <image name="Control_Icons_Dont_Repeat.png" width="100" height="100"/>
+        <image name="Control_Icons_Pause.png" width="32" height="32"/>
+        <image name="Control_Icons_Resume.png" width="32" height="32"/>
+        <image name="Control_Icons_Rewind.png" width="33" height="33"/>
+        <image name="Control_Icons_Stop.png" width="33" height="33"/>
+        <image name="Control_Icons_Repeat.png" width="100" height="100"/>
+        <image name="Control_Icons_Selected_Auto_Repeat.png" width="200" height="100"/>
+        <image name="Control_Icons_Selected_Circle2.png" width="200" height="100"/>
+        <image name="Control_Icons_Selected_Note2.png" width="180" height="90"/>
+        <image name="splash_screen.png" width="256" height="319"/>
+        <image name="Control_Icons_Deselected_Auto_Repeat2.png" width="200" height="100"/>
+        <image name="Control_Icons_Selected_Auto_Repeat2.png" width="200" height="100"/>
+        <image name="Control_Icons_Selected_Complex_Notes.png" width="200" height="100"/>
+        <image name="Control_Icons_Selected_Simple_Notes.png" width="200" height="100"/>
+    </resources>
+</document>

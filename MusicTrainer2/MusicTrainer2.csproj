@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Xamarin.Forms.3.5.0.169047\build\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.3.5.0.169047\build\Xamarin.Forms.props')" />
+  <Import Project="..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.props" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E46EA754-0F81-44A6-84C3-F172A2B07D50}</ProjectGuid>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MusicTrainer2</RootNamespace>
+    <AssemblyName>Play To Learn</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile44</TargetFrameworkProfile>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App.xaml" />
+    <EmbeddedResource Include="Localised_Text.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localised_Text.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localised_Text.zh.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localised_Text.zh.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusicTrainer2Page.xaml" />
+    <EmbeddedResource Include="HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Application_Settings.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Song_Selection.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ForElise.mid" />
+    <EmbeddedResource Include="Resources\OhWhenTheSaints.mid" />
+    <EmbeddedResource Include="Select_Key.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Sharp_Smaller.png">
+      <Link>Images\Sharp_Smaller.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Flat.png">
+      <Link>Images\Flat.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Black_Treble.png">
+      <Link>Images\Black_Treble.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Black_Cleff.png">
+      <Link>Images\Black_Cleff.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Guitar_Neck.png">
+      <Link>Images\Guitar_Neck.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Natural.png">
+      <Link>Images\Natural.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Notes\Half_Note_Down.png">
+      <Link>Images\Half_Note_Down.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Notes\Half_Note_Up.png">
+      <Link>Images\Half_Note_Up.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Notes\Empty_Head.png">
+      <Link>Images\Empty_Head.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Notes\Full_Head.png">
+      <Link>Images\Full_Head.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Notes\Whole_Note.png">
+      <Link>Images\Whole_Note.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Notes\Flag_Up.png">
+      <Link>Images\Flag_Up.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Notes\Flag_Down.png">
+      <Link>Images\Flag_Down.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Images\Notes\Unknown_Note.png">
+      <Link>Images\Unknown_Note.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExerciseE4String.mid" />
+    <EmbeddedResource Include="..\Resources\Shared\Images\Rest_Quarter.png">
+      <Link>Images\Rest_Quarter.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Images\Rest_8th.png">
+      <Link>Images\Rest_8th.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Images\Rest_64th.png">
+      <Link>Images\Rest_64th.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Images\Rest_32nd.png">
+      <Link>Images\Rest_32nd.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Images\Rest_16th.png">
+      <Link>Images\Rest_16th.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\ExerciseHighToLow3.mid">
+      <Link>Resources\ExerciseHighToLow3.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\ExerciseHighToLowZigZag3.mid">
+      <Link>Resources\ExerciseHighToLowZigZag3.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\ExerciseLowToHighZigZag3.mid">
+      <Link>Resources\ExerciseLowToHighZigZag3.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\DrunkenSailor.mid">
+      <Link>Resources\DrunkenSailor.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\ExerciseLowToHigh3.mid">
+      <Link>Resources\ExerciseLowToHigh3.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Images\Flat_Green.png">
+      <Link>Images\Flat_Green.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Images\Flat_Red.png">
+      <Link>Images\Flat_Red.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Advanced_Features.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\O_Christmas_Tree.mid">
+      <Link>Resources\O_Christmas_Tree.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\Amazing_Grace.mid">
+      <Link>Resources\Amazing_Grace.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\Blowin_in_the_Wind.mid">
+      <Link>Resources\Blowin_in_the_Wind.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\Oh_Susanna.mid">
+      <Link>Resources\Oh_Susanna.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\Let_It_Be.mid">
+      <Link>Resources\Let_It_Be.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\White_Christmas.mid">
+      <Link>Resources\White_Christmas.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\Joy_To_The_World.mid">
+      <Link>Resources\Joy_To_The_World.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\O_Come_All_Ye_Faithful.mid">
+      <Link>Resources\O_Come_All_Ye_Faithful.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\Eurovision_Theme.mid">
+      <Link>Resources\Eurovision_Theme.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\Home_On_The_Range.mid">
+      <Link>Resources\Home_On_The_Range.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\London_Bridge.mid">
+      <Link>Resources\London_Bridge.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Advanced_Features_Summary.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Subscription_Information.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Resources\Shared\Midi Files\Greensleeves.mid">
+      <Link>Resources\Greensleeves.mid</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localised_Text.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localised_Text.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Constants\Structure_Definitions.cs" />
+    <Compile Include="ILocalize.cs" />
+    <Compile Include="Localised_Text.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localised_Text.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localised_Text.zh.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localised_Text.zh.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MusicTrainer2Page.xaml.cs">
+      <DependentUpon>MusicTrainer2Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlatformCulture.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Global_Functions.cs" />
+    <Compile Include="Advertising_View.cs" />
+    <Compile Include="Application_Parameters.cs" />
+    <Compile Include="Audio_Parameters.cs" />
+    <Compile Include="IAudio_Capture.cs" />
+    <Compile Include="Instrument.cs" />
+    <Compile Include="YIN_Algorithm.cs" />
+    <Compile Include="Application_Settings.xaml.cs">
+      <DependentUpon>Application_Settings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Song_Selection.xaml.cs">
+      <DependentUpon>Song_Selection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Select_Key.xaml.cs">
+      <DependentUpon>Select_Key.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Music_Lines_Canvas.cs" />
+    <Compile Include="Instruments\Guitar.cs" />
+    <Compile Include="Midi Files\ChannelChaser.cs" />
+    <Compile Include="Midi Files\ChannelMessage.cs" />
+    <Compile Include="Midi Files\ChannelMessageBuilder.cs" />
+    <Compile Include="Midi Files\ChannelMessageEventArgs.cs" />
+    <Compile Include="Midi Files\ChannelStopper.cs" />
+    <Compile Include="Midi Files\ChasedEventArgs.cs" />
+    <Compile Include="Midi Files\DeviceException.cs" />
+    <Compile Include="Midi Files\ErrorEventArgs.cs" />
+    <Compile Include="Midi Files\IClock.cs" />
+    <Compile Include="Midi Files\IMessageBuilder.cs" />
+    <Compile Include="Midi Files\IMidiMessage.cs" />
+    <Compile Include="Midi Files\InvalidShortMessageEventArgs.cs" />
+    <Compile Include="Midi Files\InvalidSysExMessageEventArgs.cs" />
+    <Compile Include="Midi Files\Key.cs" />
+    <Compile Include="Midi Files\KeySignatureBuilder.cs" />
+    <Compile Include="Midi Files\MessageDispatcher.cs" />
+    <Compile Include="Midi Files\MetaMessage.cs" />
+    <Compile Include="Midi Files\MetaMessageEventArgs.cs" />
+    <Compile Include="Midi Files\MetaTextBuilder.cs" />
+    <Compile Include="Midi Files\MidiEvent.cs" />
+    <Compile Include="Midi Files\MidiFileProperties.cs" />
+    <Compile Include="Midi Files\MidiInternalClock.cs" />
+    <Compile Include="Midi Files\Midi_Device.cs" />
+    <Compile Include="Midi Files\Note.cs" />
+    <Compile Include="Midi Files\PpqnClock.cs" />
+    <Compile Include="Midi Files\RawMessageEventArgs.cs" />
+    <Compile Include="Midi Files\Sequence.cs" />
+    <Compile Include="Midi Files\Sequencer.cs" />
+    <Compile Include="Midi Files\ShortMessage.cs" />
+    <Compile Include="Midi Files\SongPositionPointerBuilder.cs" />
+    <Compile Include="Midi Files\StoppedEventArgs.cs" />
+    <Compile Include="Midi Files\SysCommonMessage.cs" />
+    <Compile Include="Midi Files\SysCommonMessageBuilder.cs" />
+    <Compile Include="Midi Files\SysCommonMessageEventArgs.cs" />
+    <Compile Include="Midi Files\SysExMessage.cs" />
+    <Compile Include="Midi Files\SysExMessageEventArgs.cs" />
+    <Compile Include="Midi Files\SysRealtimeMessage.cs" />
+    <Compile Include="Midi Files\SysRealtimeMessageEventArgs.cs" />
+    <Compile Include="Midi Files\TempoChangeBuilder.cs" />
+    <Compile Include="Midi Files\TimeSignatureBuilder.cs" />
+    <Compile Include="Midi Files\Track.Iterators.cs" />
+    <Compile Include="Midi Files\Track.Test.cs" />
+    <Compile Include="Midi Files\Track.cs" />
+    <Compile Include="Midi Files\TrackReader.cs" />
+    <Compile Include="Note_Information.cs" />
+    <Compile Include="Song.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="MPM_Algorithm.cs" />
+    <Compile Include="ComplexNumber.cs" />
+    <Compile Include="FftAlgorithm.cs" />
+    <Compile Include="Pitch_Detection_Result.cs" />
+    <Compile Include="In_App_Billing_Product.cs" />
+    <Compile Include="Advanced_Features.xaml.cs">
+      <DependentUpon>Advanced_Features.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Advanced_Features_Summary.xaml.cs">
+      <DependentUpon>Advanced_Features_Summary.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Subscription_Information.xaml.cs">
+      <DependentUpon>Subscription_Information.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Constants\String_Definitions.cs" />
+    <Compile Include="Constants\Numeric_Definitions.cs" />
+    <Compile Include="Constants\Boolean_Definitions.cs" />
+    <Compile Include="Plugin.InAppBilling\CrossInAppBilling.cs" />
+    <Compile Include="Plugin.InAppBilling.Abstractions\BaseInAppBilling.cs" />
+    <Compile Include="Plugin.InAppBilling.Abstractions\ConsumptionState.cs" />
+    <Compile Include="Plugin.InAppBilling.Abstractions\IInAppBilling.cs" />
+    <Compile Include="Plugin.InAppBilling.Abstractions\IInAppBillingVerifyPurchase.cs" />
+    <Compile Include="Plugin.InAppBilling.Abstractions\InAppBillingExceptions.cs" />
+    <Compile Include="Plugin.InAppBilling.Abstractions\InAppBillingProduct.cs" />
+    <Compile Include="Plugin.InAppBilling.Abstractions\InAppBillingPurchase.cs" />
+    <Compile Include="Plugin.InAppBilling.Abstractions\ItemType.cs" />
+    <Compile Include="Plugin.InAppBilling.Abstractions\PurchaseState.cs" />
+    <Compile Include="Constants\Enumeration_Definitions.cs" />
+    <Compile Include="Localised_Text.Designer.cs">
+      <DependentUpon>Localised_Text.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\netstandard1.1\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.0.18.0\lib\portable-net45+win8+wpa81+wp8\Microsoft.Azure.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Analytics">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Analytics.0.18.0\lib\portable-net45+win8+wpa81+wp8\Microsoft.Azure.Mobile.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Crashes">
+      <HintPath>..\packages\Microsoft.Azure.Mobile.Crashes.0.18.0\lib\portable-net45+win8+wpa81+wp8\Microsoft.Azure.Mobile.Crashes.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Settings">
+      <HintPath>..\packages\Xam.Plugins.Settings.4.0.0.8-beta\lib\netstandard1.0\Plugin.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp">
+      <HintPath>..\packages\SkiaSharp.1.60.0\lib\portable-net45+win8+wpa81+wp8\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.Forms">
+      <HintPath>..\packages\SkiaSharp.Views.Forms.1.60.0\lib\portable-net45+win8+wpa81+wp8\SkiaSharp.Views.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\packages\Xamarin.Forms.3.5.0.169047\lib\netstandard1.0\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\packages\Xamarin.Forms.3.5.0.169047\lib\netstandard1.0\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\packages\Xamarin.Forms.3.5.0.169047\lib\netstandard1.0\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.targets')" />
+  <Import Project="..\packages\Xamarin.Google.iOS.MobileAds.7.38.0\build\Xamarin.Google.iOS.MobileAds.targets" Condition="Exists('..\packages\Xamarin.Google.iOS.MobileAds.7.38.0\build\Xamarin.Google.iOS.MobileAds.targets')" />
+  <Import Project="..\packages\Xamarin.Forms.3.5.0.169047\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.3.5.0.169047\build\Xamarin.Forms.targets')" />
+</Project>
