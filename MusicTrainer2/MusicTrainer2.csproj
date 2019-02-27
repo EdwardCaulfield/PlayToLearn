@@ -33,29 +33,8 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="Localised_Text.de.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Localised_Text.de.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Localised_Text.zh.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Localised_Text.zh.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MusicTrainer2Page.xaml" />
-    <EmbeddedResource Include="HomePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Application_Settings.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Song_Selection.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="Resources\ForElise.mid" />
     <EmbeddedResource Include="Resources\OhWhenTheSaints.mid" />
-    <EmbeddedResource Include="Select_Key.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="..\Images\Sharp_Smaller.png">
       <Link>Images\Sharp_Smaller.png</Link>
     </EmbeddedResource>
@@ -135,9 +114,6 @@
     <EmbeddedResource Include="..\Resources\Shared\Images\Flat_Red.png">
       <Link>Images\Flat_Red.png</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="Advanced_Features.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="..\Resources\Shared\Midi Files\O_Christmas_Tree.mid">
       <Link>Resources\O_Christmas_Tree.mid</Link>
     </EmbeddedResource>
@@ -180,10 +156,34 @@
     <EmbeddedResource Include="..\Resources\Shared\Midi Files\Greensleeves.mid">
       <Link>Resources\Greensleeves.mid</Link>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Advanced_Features.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Application_Settings.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Select_Key.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Include="Localised_Text.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Localised_Text.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Localised_Text.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localised_Text.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localised_Text.zh.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localised_Text.zh.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Song_Selection.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MusicTrainer2Page.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -191,41 +191,7 @@
     </Compile>
     <Compile Include="Constants\Structure_Definitions.cs" />
     <Compile Include="ILocalize.cs" />
-    <Compile Include="Localised_Text.de.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Localised_Text.de.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Localised_Text.zh.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Localised_Text.zh.resx</DependentUpon>
-    </Compile>
-    <Compile Include="MusicTrainer2Page.xaml.cs">
-      <DependentUpon>MusicTrainer2Page.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="PlatformCulture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="HomePage.xaml.cs">
-      <DependentUpon>HomePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Global_Functions.cs" />
-    <Compile Include="Advertising_View.cs" />
-    <Compile Include="Application_Parameters.cs" />
-    <Compile Include="Audio_Parameters.cs" />
-    <Compile Include="IAudio_Capture.cs" />
-    <Compile Include="Instrument.cs" />
-    <Compile Include="YIN_Algorithm.cs" />
-    <Compile Include="Application_Settings.xaml.cs">
-      <DependentUpon>Application_Settings.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Song_Selection.xaml.cs">
-      <DependentUpon>Song_Selection.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Select_Key.xaml.cs">
-      <DependentUpon>Select_Key.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Music_Lines_Canvas.cs" />
     <Compile Include="Instruments\Guitar.cs" />
     <Compile Include="Midi Files\ChannelChaser.cs" />
     <Compile Include="Midi Files\ChannelMessage.cs" />
@@ -271,17 +237,7 @@
     <Compile Include="Midi Files\Track.Test.cs" />
     <Compile Include="Midi Files\Track.cs" />
     <Compile Include="Midi Files\TrackReader.cs" />
-    <Compile Include="Note_Information.cs" />
-    <Compile Include="Song.cs" />
     <Compile Include="GlobalSuppressions.cs" />
-    <Compile Include="MPM_Algorithm.cs" />
-    <Compile Include="ComplexNumber.cs" />
-    <Compile Include="FftAlgorithm.cs" />
-    <Compile Include="Pitch_Detection_Result.cs" />
-    <Compile Include="In_App_Billing_Product.cs" />
-    <Compile Include="Advanced_Features.xaml.cs">
-      <DependentUpon>Advanced_Features.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\Advanced_Features_Summary.xaml.cs">
       <DependentUpon>Advanced_Features_Summary.xaml</DependentUpon>
     </Compile>
@@ -302,11 +258,55 @@
     <Compile Include="Plugin.InAppBilling.Abstractions\ItemType.cs" />
     <Compile Include="Plugin.InAppBilling.Abstractions\PurchaseState.cs" />
     <Compile Include="Constants\Enumeration_Definitions.cs" />
+    <Compile Include="Views\Advanced_Features.xaml.cs">
+      <DependentUpon>Advanced_Features.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Advertising_View.cs" />
+    <Compile Include="Views\Application_Settings.xaml.cs">
+      <DependentUpon>Application_Settings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Select_Key.xaml.cs">
+      <DependentUpon>Select_Key.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Localised_Text.Designer.cs">
       <DependentUpon>Localised_Text.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Localised_Text.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localised_Text.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Localised_Text.zh.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localised_Text.zh.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Data Structures\IAudio_Capture.cs" />
+    <Compile Include="Data Structures\Instrument.cs" />
+    <Compile Include="Data Transformation\MPM_Algorithm.cs" />
+    <Compile Include="Data Transformation\FftAlgorithm.cs" />
+    <Compile Include="Data Transformation\YIN_Algorithm.cs" />
+    <Compile Include="Views\Song_Selection.xaml.cs">
+      <DependentUpon>Song_Selection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data Structures\Song.cs" />
+    <Compile Include="Data Structures\Application_Parameters.cs" />
+    <Compile Include="Data Structures\Audio_Parameters.cs" />
+    <Compile Include="Data Structures\ComplexNumber.cs" />
+    <Compile Include="Data Structures\Pitch_Detection_Result.cs" />
+    <Compile Include="Data Structures\Music_Lines_Canvas.cs" />
+    <Compile Include="Data Transformation\Global_Functions.cs" />
+    <Compile Include="Views\HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data Structures\Note_Information.cs" />
+    <Compile Include="Data Structures\PlatformCulture.cs" />
+    <Compile Include="Views\MusicTrainer2Page.xaml.cs">
+      <DependentUpon>MusicTrainer2Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Data Structures\In_App_Billing_Product.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -347,6 +347,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Data Structures\" />
+    <Folder Include="Translations\" />
+    <Folder Include="Data Transformation\" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.targets')" />
   <Import Project="..\packages\Xamarin.Google.iOS.MobileAds.7.38.0\build\Xamarin.Google.iOS.MobileAds.targets" Condition="Exists('..\packages\Xamarin.Google.iOS.MobileAds.7.38.0\build\Xamarin.Google.iOS.MobileAds.targets')" />

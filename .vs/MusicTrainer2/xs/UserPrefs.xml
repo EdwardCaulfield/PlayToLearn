@@ -4,13 +4,8 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MusicTrainer2" expanded="True">
-            <Node name="MusicTrainer2" expanded="True">
-              <Node name="Application_Settings.xaml" expanded="True" />
-              <Node name="Select_Key.xaml" expanded="True">
-                <Node name="Select_Key.xaml.cs" selected="True" />
-              </Node>
-            </Node>
+          <Node name="MusicTrainer2" expanded="True" selected="True">
+            <Node name="MusicTrainer2" expanded="True" />
           </Node>
         </State>
       </Pad>
